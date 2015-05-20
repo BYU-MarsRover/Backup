@@ -1,0 +1,985 @@
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
+
+
+   1              		.cpu cortex-m0
+   2              		.fpu softvfp
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 6
+  10              		.eabi_attribute 34, 0
+  11              		.eabi_attribute 18, 4
+  12              		.code	16
+  13              		.file	"INPUT_SELECT.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.INPUT_SELECT_Write,"ax",%progbits
+  18              		.align	2
+  19              		.global	INPUT_SELECT_Write
+  20              		.code	16
+  21              		.thumb_func
+  22              		.type	INPUT_SELECT_Write, %function
+  23              	INPUT_SELECT_Write:
+  24              	.LFB0:
+  25              		.file 1 ".\\Generated_Source\\PSoC4\\INPUT_SELECT.c"
+   1:.\Generated_Source\PSoC4/INPUT_SELECT.c **** /*******************************************************************************
+   2:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * File Name: INPUT_SELECT.c  
+   3:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Version 2.10
+   4:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
+   5:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Description:
+   6:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  This file contains API to enable firmware control of a Pins component.
+   7:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
+   8:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Note:
+   9:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
+  10:.\Generated_Source\PSoC4/INPUT_SELECT.c **** ********************************************************************************
+  11:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Copyright 2008-2014, Cypress Semiconductor Corporation.  All rights reserved.
+  12:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * You may use this file only in accordance with the license, terms, conditions, 
+  13:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * disclaimers, and limitations in the end user license agreement accompanying 
+  14:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * the software package with which this file was provided.
+  15:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *******************************************************************************/
+  16:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 
+  17:.\Generated_Source\PSoC4/INPUT_SELECT.c **** #include "cytypes.h"
+  18:.\Generated_Source\PSoC4/INPUT_SELECT.c **** #include "INPUT_SELECT.h"
+  19:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 
+  20:.\Generated_Source\PSoC4/INPUT_SELECT.c **** #define SetP4PinDriveMode(shift, mode)  \
+  21:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     do { \
+  22:.\Generated_Source\PSoC4/INPUT_SELECT.c ****         INPUT_SELECT_PC =   (INPUT_SELECT_PC & \
+  23:.\Generated_Source\PSoC4/INPUT_SELECT.c ****                                 (uint32)(~(uint32)(INPUT_SELECT_DRIVE_MODE_IND_MASK << (INPUT_SELEC
+  24:.\Generated_Source\PSoC4/INPUT_SELECT.c ****                                 (uint32)((uint32)(mode) << (INPUT_SELECT_DRIVE_MODE_BITS * (shift))
+  25:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     } while (0)
+  26:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 
+  27:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 
+  28:.\Generated_Source\PSoC4/INPUT_SELECT.c **** /*******************************************************************************
+  29:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Function Name: INPUT_SELECT_Write
+  30:.\Generated_Source\PSoC4/INPUT_SELECT.c **** ********************************************************************************
+  31:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
+  32:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Summary:
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 2
+
+
+  33:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  Assign a new value to the digital port's data output register.  
+  34:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
+  35:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Parameters:  
+  36:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  prtValue:  The value to be assigned to the Digital Port. 
+  37:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
+  38:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Return: 
+  39:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  None 
+  40:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  
+  41:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *******************************************************************************/
+  42:.\Generated_Source\PSoC4/INPUT_SELECT.c **** void INPUT_SELECT_Write(uint8 value) 
+  43:.\Generated_Source\PSoC4/INPUT_SELECT.c **** {
+  26              		.loc 1 43 0
+  27              		.cfi_startproc
+  28 0000 80B5     		push	{r7, lr}
+  29              		.cfi_def_cfa_offset 8
+  30              		.cfi_offset 7, -8
+  31              		.cfi_offset 14, -4
+  32 0002 84B0     		sub	sp, sp, #16
+  33              		.cfi_def_cfa_offset 24
+  34 0004 00AF     		add	r7, sp, #0
+  35              		.cfi_def_cfa_register 7
+  36 0006 021C     		mov	r2, r0
+  37 0008 FB1D     		add	r3, r7, #7
+  38 000a 1A70     		strb	r2, [r3]
+  44:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     uint8 drVal = (uint8)(INPUT_SELECT_DR & (uint8)(~INPUT_SELECT_MASK));
+  39              		.loc 1 44 0
+  40 000c 0E4B     		ldr	r3, .L2
+  41 000e 1B68     		ldr	r3, [r3]
+  42 0010 DAB2     		uxtb	r2, r3
+  43 0012 3B1C     		mov	r3, r7
+  44 0014 0F33     		add	r3, r3, #15
+  45 0016 0621     		mov	r1, #6
+  46 0018 8A43     		bic	r2, r1
+  47 001a 1A70     		strb	r2, [r3]
+  45:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     drVal = (drVal | ((uint8)(value << INPUT_SELECT_SHIFT) & INPUT_SELECT_MASK));
+  48              		.loc 1 45 0
+  49 001c FB1D     		add	r3, r7, #7
+  50 001e 1B78     		ldrb	r3, [r3]
+  51 0020 DB18     		add	r3, r3, r3
+  52 0022 DAB2     		uxtb	r2, r3
+  53 0024 0623     		mov	r3, #6
+  54 0026 1340     		and	r3, r2
+  55 0028 D9B2     		uxtb	r1, r3
+  56 002a 3B1C     		mov	r3, r7
+  57 002c 0F33     		add	r3, r3, #15
+  58 002e 3A1C     		mov	r2, r7
+  59 0030 0F32     		add	r2, r2, #15
+  60 0032 1278     		ldrb	r2, [r2]
+  61 0034 0A43     		orr	r2, r1
+  62 0036 1A70     		strb	r2, [r3]
+  46:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     INPUT_SELECT_DR = (uint32)drVal;
+  63              		.loc 1 46 0
+  64 0038 034B     		ldr	r3, .L2
+  65 003a 3A1C     		mov	r2, r7
+  66 003c 0F32     		add	r2, r2, #15
+  67 003e 1278     		ldrb	r2, [r2]
+  68 0040 1A60     		str	r2, [r3]
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 3
+
+
+  47:.\Generated_Source\PSoC4/INPUT_SELECT.c **** }
+  69              		.loc 1 47 0
+  70 0042 BD46     		mov	sp, r7
+  71 0044 04B0     		add	sp, sp, #16
+  72              		@ sp needed
+  73 0046 80BD     		pop	{r7, pc}
+  74              	.L3:
+  75              		.align	2
+  76              	.L2:
+  77 0048 00020440 		.word	1074004480
+  78              		.cfi_endproc
+  79              	.LFE0:
+  80              		.size	INPUT_SELECT_Write, .-INPUT_SELECT_Write
+  81              		.section	.text.INPUT_SELECT_SetDriveMode,"ax",%progbits
+  82              		.align	2
+  83              		.global	INPUT_SELECT_SetDriveMode
+  84              		.code	16
+  85              		.thumb_func
+  86              		.type	INPUT_SELECT_SetDriveMode, %function
+  87              	INPUT_SELECT_SetDriveMode:
+  88              	.LFB1:
+  48:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 
+  49:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 
+  50:.\Generated_Source\PSoC4/INPUT_SELECT.c **** /*******************************************************************************
+  51:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Function Name: INPUT_SELECT_SetDriveMode
+  52:.\Generated_Source\PSoC4/INPUT_SELECT.c **** ********************************************************************************
+  53:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
+  54:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Summary:
+  55:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  Change the drive mode on the pins of the port.
+  56:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * 
+  57:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Parameters:  
+  58:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  mode:  Change the pins to one of the following drive modes.
+  59:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
+  60:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  INPUT_SELECT_DM_STRONG     Strong Drive 
+  61:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  INPUT_SELECT_DM_OD_HI      Open Drain, Drives High 
+  62:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  INPUT_SELECT_DM_OD_LO      Open Drain, Drives Low 
+  63:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  INPUT_SELECT_DM_RES_UP     Resistive Pull Up 
+  64:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  INPUT_SELECT_DM_RES_DWN    Resistive Pull Down 
+  65:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  INPUT_SELECT_DM_RES_UPDWN  Resistive Pull Up/Down 
+  66:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  INPUT_SELECT_DM_DIG_HIZ    High Impedance Digital 
+  67:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  INPUT_SELECT_DM_ALG_HIZ    High Impedance Analog 
+  68:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
+  69:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Return: 
+  70:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  None
+  71:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
+  72:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *******************************************************************************/
+  73:.\Generated_Source\PSoC4/INPUT_SELECT.c **** void INPUT_SELECT_SetDriveMode(uint8 mode) 
+  74:.\Generated_Source\PSoC4/INPUT_SELECT.c **** {
+  89              		.loc 1 74 0
+  90              		.cfi_startproc
+  91 0000 80B5     		push	{r7, lr}
+  92              		.cfi_def_cfa_offset 8
+  93              		.cfi_offset 7, -8
+  94              		.cfi_offset 14, -4
+  95 0002 82B0     		sub	sp, sp, #8
+  96              		.cfi_def_cfa_offset 16
+  97 0004 00AF     		add	r7, sp, #0
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 4
+
+
+  98              		.cfi_def_cfa_register 7
+  99 0006 021C     		mov	r2, r0
+ 100 0008 FB1D     		add	r3, r7, #7
+ 101 000a 1A70     		strb	r2, [r3]
+  75:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 	SetP4PinDriveMode(INPUT_SELECT__0__SHIFT, mode);
+ 102              		.loc 1 75 0
+ 103 000c 0C4B     		ldr	r3, .L5
+ 104 000e 0C4A     		ldr	r2, .L5
+ 105 0010 1268     		ldr	r2, [r2]
+ 106 0012 3821     		mov	r1, #56
+ 107 0014 101C     		mov	r0, r2
+ 108 0016 8843     		bic	r0, r1
+ 109 0018 011C     		mov	r1, r0
+ 110 001a FA1D     		add	r2, r7, #7
+ 111 001c 1278     		ldrb	r2, [r2]
+ 112 001e D200     		lsl	r2, r2, #3
+ 113 0020 0A43     		orr	r2, r1
+ 114 0022 1A60     		str	r2, [r3]
+  76:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 	SetP4PinDriveMode(INPUT_SELECT__1__SHIFT, mode);
+ 115              		.loc 1 76 0
+ 116 0024 064B     		ldr	r3, .L5
+ 117 0026 064A     		ldr	r2, .L5
+ 118 0028 1168     		ldr	r1, [r2]
+ 119 002a 064A     		ldr	r2, .L5+4
+ 120 002c 1140     		and	r1, r2
+ 121 002e FA1D     		add	r2, r7, #7
+ 122 0030 1278     		ldrb	r2, [r2]
+ 123 0032 9201     		lsl	r2, r2, #6
+ 124 0034 0A43     		orr	r2, r1
+ 125 0036 1A60     		str	r2, [r3]
+  77:.\Generated_Source\PSoC4/INPUT_SELECT.c **** }
+ 126              		.loc 1 77 0
+ 127 0038 BD46     		mov	sp, r7
+ 128 003a 02B0     		add	sp, sp, #8
+ 129              		@ sp needed
+ 130 003c 80BD     		pop	{r7, pc}
+ 131              	.L6:
+ 132 003e C046     		.align	2
+ 133              	.L5:
+ 134 0040 08020440 		.word	1074004488
+ 135 0044 3FFEFFFF 		.word	-449
+ 136              		.cfi_endproc
+ 137              	.LFE1:
+ 138              		.size	INPUT_SELECT_SetDriveMode, .-INPUT_SELECT_SetDriveMode
+ 139              		.section	.text.INPUT_SELECT_Read,"ax",%progbits
+ 140              		.align	2
+ 141              		.global	INPUT_SELECT_Read
+ 142              		.code	16
+ 143              		.thumb_func
+ 144              		.type	INPUT_SELECT_Read, %function
+ 145              	INPUT_SELECT_Read:
+ 146              	.LFB2:
+  78:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 
+  79:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 
+  80:.\Generated_Source\PSoC4/INPUT_SELECT.c **** /*******************************************************************************
+  81:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Function Name: INPUT_SELECT_Read
+  82:.\Generated_Source\PSoC4/INPUT_SELECT.c **** ********************************************************************************
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 5
+
+
+  83:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
+  84:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Summary:
+  85:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  Read the current value on the pins of the Digital Port in right justified 
+  86:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  form.
+  87:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
+  88:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Parameters:  
+  89:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  None 
+  90:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
+  91:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Return: 
+  92:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  Returns the current value of the Digital Port as a right justified number
+  93:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  
+  94:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Note:
+  95:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  Macro INPUT_SELECT_ReadPS calls this function. 
+  96:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  
+  97:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *******************************************************************************/
+  98:.\Generated_Source\PSoC4/INPUT_SELECT.c **** uint8 INPUT_SELECT_Read(void) 
+  99:.\Generated_Source\PSoC4/INPUT_SELECT.c **** {
+ 147              		.loc 1 99 0
+ 148              		.cfi_startproc
+ 149 0000 80B5     		push	{r7, lr}
+ 150              		.cfi_def_cfa_offset 8
+ 151              		.cfi_offset 7, -8
+ 152              		.cfi_offset 14, -4
+ 153 0002 00AF     		add	r7, sp, #0
+ 154              		.cfi_def_cfa_register 7
+ 100:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     return (uint8)((INPUT_SELECT_PS & INPUT_SELECT_MASK) >> INPUT_SELECT_SHIFT);
+ 155              		.loc 1 100 0
+ 156 0004 044B     		ldr	r3, .L9
+ 157 0006 1A68     		ldr	r2, [r3]
+ 158 0008 0623     		mov	r3, #6
+ 159 000a 1340     		and	r3, r2
+ 160 000c 5B08     		lsr	r3, r3, #1
+ 161 000e DBB2     		uxtb	r3, r3
+ 101:.\Generated_Source\PSoC4/INPUT_SELECT.c **** }
+ 162              		.loc 1 101 0
+ 163 0010 181C     		mov	r0, r3
+ 164 0012 BD46     		mov	sp, r7
+ 165              		@ sp needed
+ 166 0014 80BD     		pop	{r7, pc}
+ 167              	.L10:
+ 168 0016 C046     		.align	2
+ 169              	.L9:
+ 170 0018 04020440 		.word	1074004484
+ 171              		.cfi_endproc
+ 172              	.LFE2:
+ 173              		.size	INPUT_SELECT_Read, .-INPUT_SELECT_Read
+ 174              		.section	.text.INPUT_SELECT_ReadDataReg,"ax",%progbits
+ 175              		.align	2
+ 176              		.global	INPUT_SELECT_ReadDataReg
+ 177              		.code	16
+ 178              		.thumb_func
+ 179              		.type	INPUT_SELECT_ReadDataReg, %function
+ 180              	INPUT_SELECT_ReadDataReg:
+ 181              	.LFB3:
+ 102:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 
+ 103:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 
+ 104:.\Generated_Source\PSoC4/INPUT_SELECT.c **** /*******************************************************************************
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 6
+
+
+ 105:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Function Name: INPUT_SELECT_ReadDataReg
+ 106:.\Generated_Source\PSoC4/INPUT_SELECT.c **** ********************************************************************************
+ 107:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
+ 108:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Summary:
+ 109:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  Read the current value assigned to a Digital Port's data output register
+ 110:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
+ 111:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Parameters:  
+ 112:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  None 
+ 113:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
+ 114:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Return: 
+ 115:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  Returns the current value assigned to the Digital Port's data output register
+ 116:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  
+ 117:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *******************************************************************************/
+ 118:.\Generated_Source\PSoC4/INPUT_SELECT.c **** uint8 INPUT_SELECT_ReadDataReg(void) 
+ 119:.\Generated_Source\PSoC4/INPUT_SELECT.c **** {
+ 182              		.loc 1 119 0
+ 183              		.cfi_startproc
+ 184 0000 80B5     		push	{r7, lr}
+ 185              		.cfi_def_cfa_offset 8
+ 186              		.cfi_offset 7, -8
+ 187              		.cfi_offset 14, -4
+ 188 0002 00AF     		add	r7, sp, #0
+ 189              		.cfi_def_cfa_register 7
+ 120:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     return (uint8)((INPUT_SELECT_DR & INPUT_SELECT_MASK) >> INPUT_SELECT_SHIFT);
+ 190              		.loc 1 120 0
+ 191 0004 044B     		ldr	r3, .L13
+ 192 0006 1A68     		ldr	r2, [r3]
+ 193 0008 0623     		mov	r3, #6
+ 194 000a 1340     		and	r3, r2
+ 195 000c 5B08     		lsr	r3, r3, #1
+ 196 000e DBB2     		uxtb	r3, r3
+ 121:.\Generated_Source\PSoC4/INPUT_SELECT.c **** }
+ 197              		.loc 1 121 0
+ 198 0010 181C     		mov	r0, r3
+ 199 0012 BD46     		mov	sp, r7
+ 200              		@ sp needed
+ 201 0014 80BD     		pop	{r7, pc}
+ 202              	.L14:
+ 203 0016 C046     		.align	2
+ 204              	.L13:
+ 205 0018 00020440 		.word	1074004480
+ 206              		.cfi_endproc
+ 207              	.LFE3:
+ 208              		.size	INPUT_SELECT_ReadDataReg, .-INPUT_SELECT_ReadDataReg
+ 209              		.section	.text.INPUT_SELECT_ClearInterrupt,"ax",%progbits
+ 210              		.align	2
+ 211              		.global	INPUT_SELECT_ClearInterrupt
+ 212              		.code	16
+ 213              		.thumb_func
+ 214              		.type	INPUT_SELECT_ClearInterrupt, %function
+ 215              	INPUT_SELECT_ClearInterrupt:
+ 216              	.LFB4:
+ 122:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 
+ 123:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 
+ 124:.\Generated_Source\PSoC4/INPUT_SELECT.c **** /* If Interrupts Are Enabled for this Pins component */ 
+ 125:.\Generated_Source\PSoC4/INPUT_SELECT.c **** #if defined(INPUT_SELECT_INTSTAT) 
+ 126:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 7
+
+
+ 127:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     /*******************************************************************************
+ 128:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     * Function Name: INPUT_SELECT_ClearInterrupt
+ 129:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     ********************************************************************************
+ 130:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     *
+ 131:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     * Summary:
+ 132:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     *  Clears any active interrupts attached to port and returns the value of the 
+ 133:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     *  interrupt status register.
+ 134:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     *
+ 135:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     * Parameters:  
+ 136:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     *  None 
+ 137:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     *
+ 138:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     * Return: 
+ 139:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     *  Returns the value of the interrupt status register
+ 140:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     *  
+ 141:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     *******************************************************************************/
+ 142:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     uint8 INPUT_SELECT_ClearInterrupt(void) 
+ 143:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     {
+ 217              		.loc 1 143 0
+ 218              		.cfi_startproc
+ 219 0000 80B5     		push	{r7, lr}
+ 220              		.cfi_def_cfa_offset 8
+ 221              		.cfi_offset 7, -8
+ 222              		.cfi_offset 14, -4
+ 223 0002 82B0     		sub	sp, sp, #8
+ 224              		.cfi_def_cfa_offset 16
+ 225 0004 00AF     		add	r7, sp, #0
+ 226              		.cfi_def_cfa_register 7
+ 144:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 		uint8 maskedStatus = (uint8)(INPUT_SELECT_INTSTAT & INPUT_SELECT_MASK);
+ 227              		.loc 1 144 0
+ 228 0006 094B     		ldr	r3, .L17
+ 229 0008 1B68     		ldr	r3, [r3]
+ 230 000a D9B2     		uxtb	r1, r3
+ 231 000c FB1D     		add	r3, r7, #7
+ 232 000e 0622     		mov	r2, #6
+ 233 0010 0A40     		and	r2, r1
+ 234 0012 1A70     		strb	r2, [r3]
+ 145:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 		INPUT_SELECT_INTSTAT = maskedStatus;
+ 235              		.loc 1 145 0
+ 236 0014 054B     		ldr	r3, .L17
+ 237 0016 FA1D     		add	r2, r7, #7
+ 238 0018 1278     		ldrb	r2, [r2]
+ 239 001a 1A60     		str	r2, [r3]
+ 146:.\Generated_Source\PSoC4/INPUT_SELECT.c ****         return maskedStatus >> INPUT_SELECT_SHIFT;
+ 240              		.loc 1 146 0
+ 241 001c FB1D     		add	r3, r7, #7
+ 242 001e 1B78     		ldrb	r3, [r3]
+ 243 0020 5B08     		lsr	r3, r3, #1
+ 244 0022 DBB2     		uxtb	r3, r3
+ 147:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     }
+ 245              		.loc 1 147 0
+ 246 0024 181C     		mov	r0, r3
+ 247 0026 BD46     		mov	sp, r7
+ 248 0028 02B0     		add	sp, sp, #8
+ 249              		@ sp needed
+ 250 002a 80BD     		pop	{r7, pc}
+ 251              	.L18:
+ 252              		.align	2
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 8
+
+
+ 253              	.L17:
+ 254 002c 10020440 		.word	1074004496
+ 255              		.cfi_endproc
+ 256              	.LFE4:
+ 257              		.size	INPUT_SELECT_ClearInterrupt, .-INPUT_SELECT_ClearInterrupt
+ 258              		.text
+ 259              	.Letext0:
+ 260              		.file 2 ".\\Generated_Source\\PSoC4\\cytypes.h"
+ 261              		.section	.debug_info,"",%progbits
+ 262              	.Ldebug_info0:
+ 263 0000 48010000 		.4byte	0x148
+ 264 0004 0400     		.2byte	0x4
+ 265 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 266 000a 04       		.byte	0x4
+ 267 000b 01       		.uleb128 0x1
+ 268 000c 3A010000 		.4byte	.LASF24
+ 269 0010 01       		.byte	0x1
+ 270 0011 DE000000 		.4byte	.LASF25
+ 271 0015 3A000000 		.4byte	.LASF26
+ 272 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 273 001d 00000000 		.4byte	0
+ 274 0021 00000000 		.4byte	.Ldebug_line0
+ 275 0025 02       		.uleb128 0x2
+ 276 0026 01       		.byte	0x1
+ 277 0027 06       		.byte	0x6
+ 278 0028 0E020000 		.4byte	.LASF0
+ 279 002c 02       		.uleb128 0x2
+ 280 002d 01       		.byte	0x1
+ 281 002e 08       		.byte	0x8
+ 282 002f 92000000 		.4byte	.LASF1
+ 283 0033 02       		.uleb128 0x2
+ 284 0034 02       		.byte	0x2
+ 285 0035 05       		.byte	0x5
+ 286 0036 F5010000 		.4byte	.LASF2
+ 287 003a 02       		.uleb128 0x2
+ 288 003b 02       		.byte	0x2
+ 289 003c 07       		.byte	0x7
+ 290 003d B8000000 		.4byte	.LASF3
+ 291 0041 02       		.uleb128 0x2
+ 292 0042 04       		.byte	0x4
+ 293 0043 05       		.byte	0x5
+ 294 0044 05020000 		.4byte	.LASF4
+ 295 0048 02       		.uleb128 0x2
+ 296 0049 04       		.byte	0x4
+ 297 004a 07       		.byte	0x7
+ 298 004b A6000000 		.4byte	.LASF5
+ 299 004f 02       		.uleb128 0x2
+ 300 0050 08       		.byte	0x8
+ 301 0051 05       		.byte	0x5
+ 302 0052 BB010000 		.4byte	.LASF6
+ 303 0056 02       		.uleb128 0x2
+ 304 0057 08       		.byte	0x8
+ 305 0058 07       		.byte	0x7
+ 306 0059 7B000000 		.4byte	.LASF7
+ 307 005d 03       		.uleb128 0x3
+ 308 005e 04       		.byte	0x4
+ 309 005f 05       		.byte	0x5
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 9
+
+
+ 310 0060 696E7400 		.ascii	"int\000"
+ 311 0064 02       		.uleb128 0x2
+ 312 0065 04       		.byte	0x4
+ 313 0066 07       		.byte	0x7
+ 314 0067 2D010000 		.4byte	.LASF8
+ 315 006b 04       		.uleb128 0x4
+ 316 006c FF010000 		.4byte	.LASF9
+ 317 0070 02       		.byte	0x2
+ 318 0071 A1       		.byte	0xa1
+ 319 0072 2C000000 		.4byte	0x2c
+ 320 0076 04       		.uleb128 0x4
+ 321 0077 26010000 		.4byte	.LASF10
+ 322 007b 02       		.byte	0x2
+ 323 007c A3       		.byte	0xa3
+ 324 007d 48000000 		.4byte	0x48
+ 325 0081 02       		.uleb128 0x2
+ 326 0082 04       		.byte	0x4
+ 327 0083 04       		.byte	0x4
+ 328 0084 75000000 		.4byte	.LASF11
+ 329 0088 02       		.uleb128 0x2
+ 330 0089 08       		.byte	0x8
+ 331 008a 04       		.byte	0x4
+ 332 008b 1F010000 		.4byte	.LASF12
+ 333 008f 02       		.uleb128 0x2
+ 334 0090 01       		.byte	0x1
+ 335 0091 08       		.byte	0x8
+ 336 0092 D6010000 		.4byte	.LASF13
+ 337 0096 05       		.uleb128 0x5
+ 338 0097 1C000000 		.4byte	.LASF14
+ 339 009b 02       		.byte	0x2
+ 340 009c 4D01     		.2byte	0x14d
+ 341 009e A2000000 		.4byte	0xa2
+ 342 00a2 06       		.uleb128 0x6
+ 343 00a3 76000000 		.4byte	0x76
+ 344 00a7 07       		.uleb128 0x7
+ 345 00a8 CB000000 		.4byte	.LASF15
+ 346 00ac 01       		.byte	0x1
+ 347 00ad 2A       		.byte	0x2a
+ 348 00ae 00000000 		.4byte	.LFB0
+ 349 00b2 4C000000 		.4byte	.LFE0-.LFB0
+ 350 00b6 01       		.uleb128 0x1
+ 351 00b7 9C       		.byte	0x9c
+ 352 00b8 D9000000 		.4byte	0xd9
+ 353 00bc 08       		.uleb128 0x8
+ 354 00bd 22000000 		.4byte	.LASF17
+ 355 00c1 01       		.byte	0x1
+ 356 00c2 2A       		.byte	0x2a
+ 357 00c3 6B000000 		.4byte	0x6b
+ 358 00c7 02       		.uleb128 0x2
+ 359 00c8 91       		.byte	0x91
+ 360 00c9 6F       		.sleb128 -17
+ 361 00ca 09       		.uleb128 0x9
+ 362 00cb A0000000 		.4byte	.LASF22
+ 363 00cf 01       		.byte	0x1
+ 364 00d0 2C       		.byte	0x2c
+ 365 00d1 6B000000 		.4byte	0x6b
+ 366 00d5 02       		.uleb128 0x2
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 10
+
+
+ 367 00d6 91       		.byte	0x91
+ 368 00d7 77       		.sleb128 -9
+ 369 00d8 00       		.byte	0
+ 370 00d9 07       		.uleb128 0x7
+ 371 00da DB010000 		.4byte	.LASF16
+ 372 00de 01       		.byte	0x1
+ 373 00df 49       		.byte	0x49
+ 374 00e0 00000000 		.4byte	.LFB1
+ 375 00e4 48000000 		.4byte	.LFE1-.LFB1
+ 376 00e8 01       		.uleb128 0x1
+ 377 00e9 9C       		.byte	0x9c
+ 378 00ea FD000000 		.4byte	0xfd
+ 379 00ee 08       		.uleb128 0x8
+ 380 00ef B6010000 		.4byte	.LASF18
+ 381 00f3 01       		.byte	0x1
+ 382 00f4 49       		.byte	0x49
+ 383 00f5 6B000000 		.4byte	0x6b
+ 384 00f9 02       		.uleb128 0x2
+ 385 00fa 91       		.byte	0x91
+ 386 00fb 77       		.sleb128 -9
+ 387 00fc 00       		.byte	0
+ 388 00fd 0A       		.uleb128 0xa
+ 389 00fe 28000000 		.4byte	.LASF19
+ 390 0102 01       		.byte	0x1
+ 391 0103 62       		.byte	0x62
+ 392 0104 6B000000 		.4byte	0x6b
+ 393 0108 00000000 		.4byte	.LFB2
+ 394 010c 1C000000 		.4byte	.LFE2-.LFB2
+ 395 0110 01       		.uleb128 0x1
+ 396 0111 9C       		.byte	0x9c
+ 397 0112 0A       		.uleb128 0xa
+ 398 0113 06010000 		.4byte	.LASF20
+ 399 0117 01       		.byte	0x1
+ 400 0118 76       		.byte	0x76
+ 401 0119 6B000000 		.4byte	0x6b
+ 402 011d 00000000 		.4byte	.LFB3
+ 403 0121 1C000000 		.4byte	.LFE3-.LFB3
+ 404 0125 01       		.uleb128 0x1
+ 405 0126 9C       		.byte	0x9c
+ 406 0127 0B       		.uleb128 0xb
+ 407 0128 00000000 		.4byte	.LASF21
+ 408 012c 01       		.byte	0x1
+ 409 012d 8E       		.byte	0x8e
+ 410 012e 6B000000 		.4byte	0x6b
+ 411 0132 00000000 		.4byte	.LFB4
+ 412 0136 30000000 		.4byte	.LFE4-.LFB4
+ 413 013a 01       		.uleb128 0x1
+ 414 013b 9C       		.byte	0x9c
+ 415 013c 09       		.uleb128 0x9
+ 416 013d C9010000 		.4byte	.LASF23
+ 417 0141 01       		.byte	0x1
+ 418 0142 90       		.byte	0x90
+ 419 0143 6B000000 		.4byte	0x6b
+ 420 0147 02       		.uleb128 0x2
+ 421 0148 91       		.byte	0x91
+ 422 0149 77       		.sleb128 -9
+ 423 014a 00       		.byte	0
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 11
+
+
+ 424 014b 00       		.byte	0
+ 425              		.section	.debug_abbrev,"",%progbits
+ 426              	.Ldebug_abbrev0:
+ 427 0000 01       		.uleb128 0x1
+ 428 0001 11       		.uleb128 0x11
+ 429 0002 01       		.byte	0x1
+ 430 0003 25       		.uleb128 0x25
+ 431 0004 0E       		.uleb128 0xe
+ 432 0005 13       		.uleb128 0x13
+ 433 0006 0B       		.uleb128 0xb
+ 434 0007 03       		.uleb128 0x3
+ 435 0008 0E       		.uleb128 0xe
+ 436 0009 1B       		.uleb128 0x1b
+ 437 000a 0E       		.uleb128 0xe
+ 438 000b 55       		.uleb128 0x55
+ 439 000c 17       		.uleb128 0x17
+ 440 000d 11       		.uleb128 0x11
+ 441 000e 01       		.uleb128 0x1
+ 442 000f 10       		.uleb128 0x10
+ 443 0010 17       		.uleb128 0x17
+ 444 0011 00       		.byte	0
+ 445 0012 00       		.byte	0
+ 446 0013 02       		.uleb128 0x2
+ 447 0014 24       		.uleb128 0x24
+ 448 0015 00       		.byte	0
+ 449 0016 0B       		.uleb128 0xb
+ 450 0017 0B       		.uleb128 0xb
+ 451 0018 3E       		.uleb128 0x3e
+ 452 0019 0B       		.uleb128 0xb
+ 453 001a 03       		.uleb128 0x3
+ 454 001b 0E       		.uleb128 0xe
+ 455 001c 00       		.byte	0
+ 456 001d 00       		.byte	0
+ 457 001e 03       		.uleb128 0x3
+ 458 001f 24       		.uleb128 0x24
+ 459 0020 00       		.byte	0
+ 460 0021 0B       		.uleb128 0xb
+ 461 0022 0B       		.uleb128 0xb
+ 462 0023 3E       		.uleb128 0x3e
+ 463 0024 0B       		.uleb128 0xb
+ 464 0025 03       		.uleb128 0x3
+ 465 0026 08       		.uleb128 0x8
+ 466 0027 00       		.byte	0
+ 467 0028 00       		.byte	0
+ 468 0029 04       		.uleb128 0x4
+ 469 002a 16       		.uleb128 0x16
+ 470 002b 00       		.byte	0
+ 471 002c 03       		.uleb128 0x3
+ 472 002d 0E       		.uleb128 0xe
+ 473 002e 3A       		.uleb128 0x3a
+ 474 002f 0B       		.uleb128 0xb
+ 475 0030 3B       		.uleb128 0x3b
+ 476 0031 0B       		.uleb128 0xb
+ 477 0032 49       		.uleb128 0x49
+ 478 0033 13       		.uleb128 0x13
+ 479 0034 00       		.byte	0
+ 480 0035 00       		.byte	0
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 12
+
+
+ 481 0036 05       		.uleb128 0x5
+ 482 0037 16       		.uleb128 0x16
+ 483 0038 00       		.byte	0
+ 484 0039 03       		.uleb128 0x3
+ 485 003a 0E       		.uleb128 0xe
+ 486 003b 3A       		.uleb128 0x3a
+ 487 003c 0B       		.uleb128 0xb
+ 488 003d 3B       		.uleb128 0x3b
+ 489 003e 05       		.uleb128 0x5
+ 490 003f 49       		.uleb128 0x49
+ 491 0040 13       		.uleb128 0x13
+ 492 0041 00       		.byte	0
+ 493 0042 00       		.byte	0
+ 494 0043 06       		.uleb128 0x6
+ 495 0044 35       		.uleb128 0x35
+ 496 0045 00       		.byte	0
+ 497 0046 49       		.uleb128 0x49
+ 498 0047 13       		.uleb128 0x13
+ 499 0048 00       		.byte	0
+ 500 0049 00       		.byte	0
+ 501 004a 07       		.uleb128 0x7
+ 502 004b 2E       		.uleb128 0x2e
+ 503 004c 01       		.byte	0x1
+ 504 004d 3F       		.uleb128 0x3f
+ 505 004e 19       		.uleb128 0x19
+ 506 004f 03       		.uleb128 0x3
+ 507 0050 0E       		.uleb128 0xe
+ 508 0051 3A       		.uleb128 0x3a
+ 509 0052 0B       		.uleb128 0xb
+ 510 0053 3B       		.uleb128 0x3b
+ 511 0054 0B       		.uleb128 0xb
+ 512 0055 27       		.uleb128 0x27
+ 513 0056 19       		.uleb128 0x19
+ 514 0057 11       		.uleb128 0x11
+ 515 0058 01       		.uleb128 0x1
+ 516 0059 12       		.uleb128 0x12
+ 517 005a 06       		.uleb128 0x6
+ 518 005b 40       		.uleb128 0x40
+ 519 005c 18       		.uleb128 0x18
+ 520 005d 9742     		.uleb128 0x2117
+ 521 005f 19       		.uleb128 0x19
+ 522 0060 01       		.uleb128 0x1
+ 523 0061 13       		.uleb128 0x13
+ 524 0062 00       		.byte	0
+ 525 0063 00       		.byte	0
+ 526 0064 08       		.uleb128 0x8
+ 527 0065 05       		.uleb128 0x5
+ 528 0066 00       		.byte	0
+ 529 0067 03       		.uleb128 0x3
+ 530 0068 0E       		.uleb128 0xe
+ 531 0069 3A       		.uleb128 0x3a
+ 532 006a 0B       		.uleb128 0xb
+ 533 006b 3B       		.uleb128 0x3b
+ 534 006c 0B       		.uleb128 0xb
+ 535 006d 49       		.uleb128 0x49
+ 536 006e 13       		.uleb128 0x13
+ 537 006f 02       		.uleb128 0x2
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 13
+
+
+ 538 0070 18       		.uleb128 0x18
+ 539 0071 00       		.byte	0
+ 540 0072 00       		.byte	0
+ 541 0073 09       		.uleb128 0x9
+ 542 0074 34       		.uleb128 0x34
+ 543 0075 00       		.byte	0
+ 544 0076 03       		.uleb128 0x3
+ 545 0077 0E       		.uleb128 0xe
+ 546 0078 3A       		.uleb128 0x3a
+ 547 0079 0B       		.uleb128 0xb
+ 548 007a 3B       		.uleb128 0x3b
+ 549 007b 0B       		.uleb128 0xb
+ 550 007c 49       		.uleb128 0x49
+ 551 007d 13       		.uleb128 0x13
+ 552 007e 02       		.uleb128 0x2
+ 553 007f 18       		.uleb128 0x18
+ 554 0080 00       		.byte	0
+ 555 0081 00       		.byte	0
+ 556 0082 0A       		.uleb128 0xa
+ 557 0083 2E       		.uleb128 0x2e
+ 558 0084 00       		.byte	0
+ 559 0085 3F       		.uleb128 0x3f
+ 560 0086 19       		.uleb128 0x19
+ 561 0087 03       		.uleb128 0x3
+ 562 0088 0E       		.uleb128 0xe
+ 563 0089 3A       		.uleb128 0x3a
+ 564 008a 0B       		.uleb128 0xb
+ 565 008b 3B       		.uleb128 0x3b
+ 566 008c 0B       		.uleb128 0xb
+ 567 008d 27       		.uleb128 0x27
+ 568 008e 19       		.uleb128 0x19
+ 569 008f 49       		.uleb128 0x49
+ 570 0090 13       		.uleb128 0x13
+ 571 0091 11       		.uleb128 0x11
+ 572 0092 01       		.uleb128 0x1
+ 573 0093 12       		.uleb128 0x12
+ 574 0094 06       		.uleb128 0x6
+ 575 0095 40       		.uleb128 0x40
+ 576 0096 18       		.uleb128 0x18
+ 577 0097 9742     		.uleb128 0x2117
+ 578 0099 19       		.uleb128 0x19
+ 579 009a 00       		.byte	0
+ 580 009b 00       		.byte	0
+ 581 009c 0B       		.uleb128 0xb
+ 582 009d 2E       		.uleb128 0x2e
+ 583 009e 01       		.byte	0x1
+ 584 009f 3F       		.uleb128 0x3f
+ 585 00a0 19       		.uleb128 0x19
+ 586 00a1 03       		.uleb128 0x3
+ 587 00a2 0E       		.uleb128 0xe
+ 588 00a3 3A       		.uleb128 0x3a
+ 589 00a4 0B       		.uleb128 0xb
+ 590 00a5 3B       		.uleb128 0x3b
+ 591 00a6 0B       		.uleb128 0xb
+ 592 00a7 27       		.uleb128 0x27
+ 593 00a8 19       		.uleb128 0x19
+ 594 00a9 49       		.uleb128 0x49
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 14
+
+
+ 595 00aa 13       		.uleb128 0x13
+ 596 00ab 11       		.uleb128 0x11
+ 597 00ac 01       		.uleb128 0x1
+ 598 00ad 12       		.uleb128 0x12
+ 599 00ae 06       		.uleb128 0x6
+ 600 00af 40       		.uleb128 0x40
+ 601 00b0 18       		.uleb128 0x18
+ 602 00b1 9742     		.uleb128 0x2117
+ 603 00b3 19       		.uleb128 0x19
+ 604 00b4 00       		.byte	0
+ 605 00b5 00       		.byte	0
+ 606 00b6 00       		.byte	0
+ 607              		.section	.debug_aranges,"",%progbits
+ 608 0000 3C000000 		.4byte	0x3c
+ 609 0004 0200     		.2byte	0x2
+ 610 0006 00000000 		.4byte	.Ldebug_info0
+ 611 000a 04       		.byte	0x4
+ 612 000b 00       		.byte	0
+ 613 000c 0000     		.2byte	0
+ 614 000e 0000     		.2byte	0
+ 615 0010 00000000 		.4byte	.LFB0
+ 616 0014 4C000000 		.4byte	.LFE0-.LFB0
+ 617 0018 00000000 		.4byte	.LFB1
+ 618 001c 48000000 		.4byte	.LFE1-.LFB1
+ 619 0020 00000000 		.4byte	.LFB2
+ 620 0024 1C000000 		.4byte	.LFE2-.LFB2
+ 621 0028 00000000 		.4byte	.LFB3
+ 622 002c 1C000000 		.4byte	.LFE3-.LFB3
+ 623 0030 00000000 		.4byte	.LFB4
+ 624 0034 30000000 		.4byte	.LFE4-.LFB4
+ 625 0038 00000000 		.4byte	0
+ 626 003c 00000000 		.4byte	0
+ 627              		.section	.debug_ranges,"",%progbits
+ 628              	.Ldebug_ranges0:
+ 629 0000 00000000 		.4byte	.LFB0
+ 630 0004 4C000000 		.4byte	.LFE0
+ 631 0008 00000000 		.4byte	.LFB1
+ 632 000c 48000000 		.4byte	.LFE1
+ 633 0010 00000000 		.4byte	.LFB2
+ 634 0014 1C000000 		.4byte	.LFE2
+ 635 0018 00000000 		.4byte	.LFB3
+ 636 001c 1C000000 		.4byte	.LFE3
+ 637 0020 00000000 		.4byte	.LFB4
+ 638 0024 30000000 		.4byte	.LFE4
+ 639 0028 00000000 		.4byte	0
+ 640 002c 00000000 		.4byte	0
+ 641              		.section	.debug_line,"",%progbits
+ 642              	.Ldebug_line0:
+ 643 0000 AF000000 		.section	.debug_str,"MS",%progbits,1
+ 643      02004B00 
+ 643      00000201 
+ 643      FB0E0D00 
+ 643      01010101 
+ 644              	.LASF21:
+ 645 0000 494E5055 		.ascii	"INPUT_SELECT_ClearInterrupt\000"
+ 645      545F5345 
+ 645      4C454354 
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 15
+
+
+ 645      5F436C65 
+ 645      6172496E 
+ 646              	.LASF14:
+ 647 001c 72656733 		.ascii	"reg32\000"
+ 647      3200
+ 648              	.LASF17:
+ 649 0022 76616C75 		.ascii	"value\000"
+ 649      6500
+ 650              	.LASF19:
+ 651 0028 494E5055 		.ascii	"INPUT_SELECT_Read\000"
+ 651      545F5345 
+ 651      4C454354 
+ 651      5F526561 
+ 651      6400
+ 652              	.LASF26:
+ 653 003a 5A3A5C4F 		.ascii	"Z:\\OneDrive\\Tech\\GitHub\\Power-System\\PWM_MUX\\"
+ 653      6E654472 
+ 653      6976655C 
+ 653      54656368 
+ 653      5C476974 
+ 654 0067 50574D5F 		.ascii	"PWM_MUX.cydsn\000"
+ 654      4D55582E 
+ 654      63796473 
+ 654      6E00
+ 655              	.LASF11:
+ 656 0075 666C6F61 		.ascii	"float\000"
+ 656      7400
+ 657              	.LASF7:
+ 658 007b 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 658      206C6F6E 
+ 658      6720756E 
+ 658      7369676E 
+ 658      65642069 
+ 659              	.LASF1:
+ 660 0092 756E7369 		.ascii	"unsigned char\000"
+ 660      676E6564 
+ 660      20636861 
+ 660      7200
+ 661              	.LASF22:
+ 662 00a0 64725661 		.ascii	"drVal\000"
+ 662      6C00
+ 663              	.LASF5:
+ 664 00a6 6C6F6E67 		.ascii	"long unsigned int\000"
+ 664      20756E73 
+ 664      69676E65 
+ 664      6420696E 
+ 664      7400
+ 665              	.LASF3:
+ 666 00b8 73686F72 		.ascii	"short unsigned int\000"
+ 666      7420756E 
+ 666      7369676E 
+ 666      65642069 
+ 666      6E7400
+ 667              	.LASF15:
+ 668 00cb 494E5055 		.ascii	"INPUT_SELECT_Write\000"
+ 668      545F5345 
+ 668      4C454354 
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 16
+
+
+ 668      5F577269 
+ 668      746500
+ 669              	.LASF25:
+ 670 00de 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\INPUT_SELECT.c\000"
+ 670      6E657261 
+ 670      7465645F 
+ 670      536F7572 
+ 670      63655C50 
+ 671              	.LASF20:
+ 672 0106 494E5055 		.ascii	"INPUT_SELECT_ReadDataReg\000"
+ 672      545F5345 
+ 672      4C454354 
+ 672      5F526561 
+ 672      64446174 
+ 673              	.LASF12:
+ 674 011f 646F7562 		.ascii	"double\000"
+ 674      6C6500
+ 675              	.LASF10:
+ 676 0126 75696E74 		.ascii	"uint32\000"
+ 676      333200
+ 677              	.LASF8:
+ 678 012d 756E7369 		.ascii	"unsigned int\000"
+ 678      676E6564 
+ 678      20696E74 
+ 678      00
+ 679              	.LASF24:
+ 680 013a 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
+ 680      4320342E 
+ 680      382E3420 
+ 680      32303134 
+ 680      30353236 
+ 681 016d 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
+ 681      20726576 
+ 681      6973696F 
+ 681      6E203231 
+ 681      31333538 
+ 682 01a0 30202D66 		.ascii	"0 -ffunction-sections\000"
+ 682      66756E63 
+ 682      74696F6E 
+ 682      2D736563 
+ 682      74696F6E 
+ 683              	.LASF18:
+ 684 01b6 6D6F6465 		.ascii	"mode\000"
+ 684      00
+ 685              	.LASF6:
+ 686 01bb 6C6F6E67 		.ascii	"long long int\000"
+ 686      206C6F6E 
+ 686      6720696E 
+ 686      7400
+ 687              	.LASF23:
+ 688 01c9 6D61736B 		.ascii	"maskedStatus\000"
+ 688      65645374 
+ 688      61747573 
+ 688      00
+ 689              	.LASF13:
+ 690 01d6 63686172 		.ascii	"char\000"
+ 690      00
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 17
+
+
+ 691              	.LASF16:
+ 692 01db 494E5055 		.ascii	"INPUT_SELECT_SetDriveMode\000"
+ 692      545F5345 
+ 692      4C454354 
+ 692      5F536574 
+ 692      44726976 
+ 693              	.LASF2:
+ 694 01f5 73686F72 		.ascii	"short int\000"
+ 694      7420696E 
+ 694      7400
+ 695              	.LASF9:
+ 696 01ff 75696E74 		.ascii	"uint8\000"
+ 696      3800
+ 697              	.LASF4:
+ 698 0205 6C6F6E67 		.ascii	"long int\000"
+ 698      20696E74 
+ 698      00
+ 699              	.LASF0:
+ 700 020e 7369676E 		.ascii	"signed char\000"
+ 700      65642063 
+ 700      68617200 
+ 701              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.4 20140526 (release) [ARM/embedded-4_8-br
