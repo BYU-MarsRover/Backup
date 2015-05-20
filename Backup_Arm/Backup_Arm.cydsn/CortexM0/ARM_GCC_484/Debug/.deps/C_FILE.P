@@ -1,142 +1,142 @@
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/CortexM0/ARM_GCC_484/Debug/main.o : C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select_in.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select_in_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select_timer.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/CONTROL.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/CONTROL_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Clock_1.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Clock_2.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Clock_4.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Default_PWM.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Elbow.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Elbow_Backup.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Elbow_Backup_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Elbow_MCU.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Elbow_MCU_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Elbow_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Hand.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Hand_Backup.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Hand_Backup_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Hand_MCU.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Hand_MCU_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Hand_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/INPUT_SELECT.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/INPUT_SELECT_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/ISR.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/ISR_1.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/ISR_2.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/LED.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/LED_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Mux_timer.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Shoulder.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Shoulder_Backup.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Shoulder_Backup_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Shoulder_MCU.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Shoulder_MCU_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Shoulder_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Turret.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Turret_Backup.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Turret_Backup_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Turret_MCU.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Turret_MCU_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Turret_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Flap.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Flap_Backup.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Flap_Backup_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Flap_MCU.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Flap_MCU_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Flap_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Rotate.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Rotate_Backup.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Rotate_Backup_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Rotate_MCU.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Rotate_MCU_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Rotate_aliases.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/core_cmFunc.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/core_cmInstr.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cydisabledsheets.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/project.h C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/main.c 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/CortexM0/ARM_GCC_484/Debug/main.o : Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select_in.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select_in_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select_timer.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_1.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_1_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_2.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_2_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_3.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_3_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_4.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_4_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_5.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_5_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_6.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_6_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/CONTROL.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/CONTROL_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Clock_1.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Clock_2.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Clock_4.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/CyFlash.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/CyLib.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Default_PWM.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/INPUT_SELECT.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/INPUT_SELECT_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/ISR.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/ISR_1.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/ISR_2.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/LED.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/LED_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_1.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_1_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_2.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_2_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_3.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_3_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_4.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_4_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_5.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_5_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_6.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_6_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Mux_timer.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_1.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_1_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_2.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_2_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_3.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_3_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_4.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_4_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_5.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_5_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_6.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_6_aliases.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/core_cm0.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/core_cmFunc.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/core_cmInstr.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cyPm.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cydevice_trm.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cydisabledsheets.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cyfitter.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cypins.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cytypes.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/project.h Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/main.c 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select_in.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select_in.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select_in_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select_in_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select_timer.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Arm_select_timer.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/CONTROL.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_1.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/CONTROL_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_1_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Clock_1.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_2.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Clock_2.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_2_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Clock_4.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_3.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/CyFlash.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_3_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/CyLib.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_4.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Default_PWM.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_4_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Elbow.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_5.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Elbow_Backup.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_5_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Elbow_Backup_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_6.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Elbow_MCU.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/B_in_6_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Elbow_MCU_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/CONTROL.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Elbow_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/CONTROL_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Hand.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Clock_1.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Hand_Backup.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Clock_2.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Hand_Backup_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Clock_4.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Hand_MCU.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/CyFlash.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Hand_MCU_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/CyLib.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Hand_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Default_PWM.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/INPUT_SELECT.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/INPUT_SELECT.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/INPUT_SELECT_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/INPUT_SELECT_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/ISR.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/ISR.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/ISR_1.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/ISR_1.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/ISR_2.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/ISR_2.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/LED.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/LED.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/LED_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/LED_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Mux_timer.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_1.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Shoulder.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_1_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Shoulder_Backup.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_2.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Shoulder_Backup_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_2_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Shoulder_MCU.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_3.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Shoulder_MCU_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_3_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Shoulder_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_4.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Turret.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_4_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Turret_Backup.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_5.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Turret_Backup_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_5_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Turret_MCU.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_6.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Turret_MCU_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/M_in_6_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Turret_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Mux_timer.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Flap.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_1.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Flap_Backup.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_1_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Flap_Backup_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_2.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Flap_MCU.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_2_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Flap_MCU_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_3.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Flap_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_3_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Rotate.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_4.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Rotate_Backup.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_4_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Rotate_Backup_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_5.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Rotate_MCU.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_5_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Rotate_MCU_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_6.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/W_Rotate_aliases.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/Out_6_aliases.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/core_cm0.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/core_cm0.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/core_cmFunc.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/core_cmFunc.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/core_cmInstr.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/core_cmInstr.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cyPm.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cyPm.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cyfitter.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cypins.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cypins.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cytypes.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/cytypes.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/project.h : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/Generated_Source/PSoC4/project.h : 
 
-C:/Users/Jacob/Documents/Backup_Arm/Backup_Arm.cydsn/main.c : 
+Z:/OneDrive/Tech/GitHub/Backup/Backup_Arm/Backup_Arm.cydsn/main.c : 
 

@@ -64,18 +64,15 @@ Port Name  Setup to Clk  Clock Name:Phase
 -----------------------3.2::Clock to Out
 ----------------------------------------
 
-Port Name             Clock to Out  Clock Name:Phase  
---------------------  ------------  ----------------  
-Camera_Pan(0)_PAD     35371         CyHFCLK:R         
-Camera_Pan(0)_PAD     29929         Clock_1(FFB):R    
-Camera_Tilt(0)_PAD    38116         CyHFCLK:R         
-Camera_Tilt(0)_PAD    31802         Clock_1(FFB):R    
-Camera_select(0)_PAD  40828         CyHFCLK:R         
-Camera_select(0)_PAD  33246         Clock_4(FFB):R    
-Drive_Left(0)_PAD     36745         CyHFCLK:R         
-Drive_Left(0)_PAD     30434         Clock_1(FFB):R    
-Drive_Right(0)_PAD    37517         CyHFCLK:R         
-Drive_Right(0)_PAD    31866         Clock_1(FFB):R    
+Port Name     Clock to Out  Clock Name:Phase  
+------------  ------------  ----------------  
+Out_1(0)_PAD  35784         CyHFCLK:R         
+Out_1(0)_PAD  30032         Clock_1(FFB):R    
+Out_2(0)_PAD  38399         CyHFCLK:R         
+Out_2(0)_PAD  31963         Clock_1(FFB):R    
+Out_3(0)_PAD  38749         CyHFCLK:R         
+Out_4(0)_PAD  37824         CyHFCLK:R         
+Out_5(0)_PAD  36695         CyHFCLK:R         
 
 
                          3.3::Pad to Pad

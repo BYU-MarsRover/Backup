@@ -2,7 +2,7 @@
 --	Conversion of PWM_MUX.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Wed May 06 19:31:54 2015
+--	Wed May 20 12:15:44 2015
 --
 
 USE cypress.cypress.all;
@@ -62,58 +62,58 @@ SIGNAL \Turret_Mux_9:tmp__Turret_Mux_9_reg\ : bit;
 SIGNAL Net_165 : bit;
 SIGNAL Net_166 : bit;
 SIGNAL Net_167 : bit;
-SIGNAL tmpOE__Drive_Right_MCU_net_0 : bit;
-SIGNAL tmpIO_0__Drive_Right_MCU_net_0 : bit;
-TERMINAL tmpSIOVREF__Drive_Right_MCU_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__Drive_Right_MCU_net_0 : bit;
-SIGNAL tmpOE__Drive_Right_Backup_net_0 : bit;
-SIGNAL tmpIO_0__Drive_Right_Backup_net_0 : bit;
-TERMINAL tmpSIOVREF__Drive_Right_Backup_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__Drive_Right_Backup_net_0 : bit;
-SIGNAL tmpOE__Drive_Left_MCU_net_0 : bit;
-SIGNAL tmpIO_0__Drive_Left_MCU_net_0 : bit;
-TERMINAL tmpSIOVREF__Drive_Left_MCU_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__Drive_Left_MCU_net_0 : bit;
-SIGNAL tmpOE__Drive_Left_Backup_net_0 : bit;
-SIGNAL tmpIO_0__Drive_Left_Backup_net_0 : bit;
-TERMINAL tmpSIOVREF__Drive_Left_Backup_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__Drive_Left_Backup_net_0 : bit;
-SIGNAL tmpOE__Camera_Pan_MCU_net_0 : bit;
-SIGNAL tmpIO_0__Camera_Pan_MCU_net_0 : bit;
-TERMINAL tmpSIOVREF__Camera_Pan_MCU_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__Camera_Pan_MCU_net_0 : bit;
-SIGNAL tmpOE__Camera_Pan_Backup_net_0 : bit;
-SIGNAL tmpIO_0__Camera_Pan_Backup_net_0 : bit;
-TERMINAL tmpSIOVREF__Camera_Pan_Backup_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__Camera_Pan_Backup_net_0 : bit;
-SIGNAL tmpOE__Camera_Tilt_MCU_net_0 : bit;
-SIGNAL tmpIO_0__Camera_Tilt_MCU_net_0 : bit;
-TERMINAL tmpSIOVREF__Camera_Tilt_MCU_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__Camera_Tilt_MCU_net_0 : bit;
-SIGNAL tmpOE__Camera_Tilt_Backup_net_0 : bit;
-SIGNAL tmpIO_0__Camera_Tilt_Backup_net_0 : bit;
-TERMINAL tmpSIOVREF__Camera_Tilt_Backup_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__Camera_Tilt_Backup_net_0 : bit;
-SIGNAL tmpOE__Drive_Right_net_0 : bit;
-SIGNAL tmpFB_0__Drive_Right_net_0 : bit;
-SIGNAL tmpIO_0__Drive_Right_net_0 : bit;
-TERMINAL tmpSIOVREF__Drive_Right_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__Drive_Right_net_0 : bit;
-SIGNAL tmpOE__Drive_Left_net_0 : bit;
-SIGNAL tmpFB_0__Drive_Left_net_0 : bit;
-SIGNAL tmpIO_0__Drive_Left_net_0 : bit;
-TERMINAL tmpSIOVREF__Drive_Left_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__Drive_Left_net_0 : bit;
-SIGNAL tmpOE__Camera_Pan_net_0 : bit;
-SIGNAL tmpFB_0__Camera_Pan_net_0 : bit;
-SIGNAL tmpIO_0__Camera_Pan_net_0 : bit;
-TERMINAL tmpSIOVREF__Camera_Pan_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__Camera_Pan_net_0 : bit;
-SIGNAL tmpOE__Camera_Tilt_net_0 : bit;
-SIGNAL tmpFB_0__Camera_Tilt_net_0 : bit;
-SIGNAL tmpIO_0__Camera_Tilt_net_0 : bit;
-TERMINAL tmpSIOVREF__Camera_Tilt_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__Camera_Tilt_net_0 : bit;
+SIGNAL tmpOE__M_in_1_net_0 : bit;
+SIGNAL tmpIO_0__M_in_1_net_0 : bit;
+TERMINAL tmpSIOVREF__M_in_1_net_0 : bit;
+SIGNAL tmpINTERRUPT_0__M_in_1_net_0 : bit;
+SIGNAL tmpOE__B_in_1_net_0 : bit;
+SIGNAL tmpIO_0__B_in_1_net_0 : bit;
+TERMINAL tmpSIOVREF__B_in_1_net_0 : bit;
+SIGNAL tmpINTERRUPT_0__B_in_1_net_0 : bit;
+SIGNAL tmpOE__M_in_2_net_0 : bit;
+SIGNAL tmpIO_0__M_in_2_net_0 : bit;
+TERMINAL tmpSIOVREF__M_in_2_net_0 : bit;
+SIGNAL tmpINTERRUPT_0__M_in_2_net_0 : bit;
+SIGNAL tmpOE__B_in_2_net_0 : bit;
+SIGNAL tmpIO_0__B_in_2_net_0 : bit;
+TERMINAL tmpSIOVREF__B_in_2_net_0 : bit;
+SIGNAL tmpINTERRUPT_0__B_in_2_net_0 : bit;
+SIGNAL tmpOE__M_in_4_net_0 : bit;
+SIGNAL tmpIO_0__M_in_4_net_0 : bit;
+TERMINAL tmpSIOVREF__M_in_4_net_0 : bit;
+SIGNAL tmpINTERRUPT_0__M_in_4_net_0 : bit;
+SIGNAL tmpOE__B_in_4_net_0 : bit;
+SIGNAL tmpIO_0__B_in_4_net_0 : bit;
+TERMINAL tmpSIOVREF__B_in_4_net_0 : bit;
+SIGNAL tmpINTERRUPT_0__B_in_4_net_0 : bit;
+SIGNAL tmpOE__M_in_3_net_0 : bit;
+SIGNAL tmpIO_0__M_in_3_net_0 : bit;
+TERMINAL tmpSIOVREF__M_in_3_net_0 : bit;
+SIGNAL tmpINTERRUPT_0__M_in_3_net_0 : bit;
+SIGNAL tmpOE__B_in_3_net_0 : bit;
+SIGNAL tmpIO_0__B_in_3_net_0 : bit;
+TERMINAL tmpSIOVREF__B_in_3_net_0 : bit;
+SIGNAL tmpINTERRUPT_0__B_in_3_net_0 : bit;
+SIGNAL tmpOE__Out_1_net_0 : bit;
+SIGNAL tmpFB_0__Out_1_net_0 : bit;
+SIGNAL tmpIO_0__Out_1_net_0 : bit;
+TERMINAL tmpSIOVREF__Out_1_net_0 : bit;
+SIGNAL tmpINTERRUPT_0__Out_1_net_0 : bit;
+SIGNAL tmpOE__Out_2_net_0 : bit;
+SIGNAL tmpFB_0__Out_2_net_0 : bit;
+SIGNAL tmpIO_0__Out_2_net_0 : bit;
+TERMINAL tmpSIOVREF__Out_2_net_0 : bit;
+SIGNAL tmpINTERRUPT_0__Out_2_net_0 : bit;
+SIGNAL tmpOE__Out_4_net_0 : bit;
+SIGNAL tmpFB_0__Out_4_net_0 : bit;
+SIGNAL tmpIO_0__Out_4_net_0 : bit;
+TERMINAL tmpSIOVREF__Out_4_net_0 : bit;
+SIGNAL tmpINTERRUPT_0__Out_4_net_0 : bit;
+SIGNAL tmpOE__Out_3_net_0 : bit;
+SIGNAL tmpFB_0__Out_3_net_0 : bit;
+SIGNAL tmpIO_0__Out_3_net_0 : bit;
+TERMINAL tmpSIOVREF__Out_3_net_0 : bit;
+SIGNAL tmpINTERRUPT_0__Out_3_net_0 : bit;
 SIGNAL \Default_PWM:Net_81\ : bit;
 SIGNAL \Default_PWM:Net_75\ : bit;
 SIGNAL \Default_PWM:Net_69\ : bit;
@@ -126,24 +126,23 @@ SIGNAL Net_372 : bit;
 SIGNAL Net_373 : bit;
 SIGNAL Net_203 : bit;
 SIGNAL Net_209 : bit;
-SIGNAL tmpOE__Camera_select_net_0 : bit;
+SIGNAL tmpOE__Out_5_net_0 : bit;
 SIGNAL Net_303 : bit;
-SIGNAL tmpFB_0__Camera_select_net_0 : bit;
-SIGNAL tmpIO_0__Camera_select_net_0 : bit;
-TERMINAL tmpSIOVREF__Camera_select_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__Camera_select_net_0 : bit;
-SIGNAL tmpOE__Camera_Sel_Backup_net_0 : bit;
+SIGNAL tmpFB_0__Out_5_net_0 : bit;
+SIGNAL tmpIO_0__Out_5_net_0 : bit;
+TERMINAL tmpSIOVREF__Out_5_net_0 : bit;
+SIGNAL tmpINTERRUPT_0__Out_5_net_0 : bit;
+SIGNAL tmpOE__B_in_5_net_0 : bit;
 SIGNAL Net_305 : bit;
-SIGNAL tmpIO_0__Camera_Sel_Backup_net_0 : bit;
-TERMINAL tmpSIOVREF__Camera_Sel_Backup_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__Camera_Sel_Backup_net_0 : bit;
-SIGNAL tmpOE__Camera_Sel_MCU_net_0 : bit;
+SIGNAL tmpIO_0__B_in_5_net_0 : bit;
+TERMINAL tmpSIOVREF__B_in_5_net_0 : bit;
+SIGNAL tmpINTERRUPT_0__B_in_5_net_0 : bit;
+SIGNAL tmpOE__M_in_5_net_0 : bit;
 SIGNAL Net_301 : bit;
-SIGNAL tmpIO_0__Camera_Sel_MCU_net_0 : bit;
-TERMINAL tmpSIOVREF__Camera_Sel_MCU_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__Camera_Sel_MCU_net_0 : bit;
+SIGNAL tmpIO_0__M_in_5_net_0 : bit;
+TERMINAL tmpSIOVREF__M_in_5_net_0 : bit;
+SIGNAL tmpINTERRUPT_0__M_in_5_net_0 : bit;
 SIGNAL \Turret_Mux_1:tmp__Turret_Mux_1_reg\ : bit;
-SIGNAL Net_322 : bit;
 SIGNAL tmpOE__Arm_select_net_0 : bit;
 SIGNAL Net_376 : bit;
 SIGNAL tmpIO_0__Arm_select_net_0 : bit;
@@ -160,6 +159,7 @@ SIGNAL \Cam_sel_PWM:Net_72\ : bit;
 SIGNAL Net_361 : bit;
 SIGNAL Net_360 : bit;
 SIGNAL Net_362 : bit;
+SIGNAL Net_383 : bit;
 SIGNAL Net_364 : bit;
 SIGNAL Net_307 : bit;
 SIGNAL Net_313 : bit;
@@ -184,21 +184,21 @@ Net_155 <= ((not Net_278_1 and Net_278_0 and Net_200)
 	OR (not Net_278_1 and not Net_278_0 and Net_153)
 	OR (Net_278_1 and Net_199));
 
-Net_163 <= ((not Net_278_1 and Net_278_0 and Net_162)
-	OR (not Net_278_1 and not Net_278_0 and Net_161)
-	OR (Net_278_1 and Net_199));
+Net_163 <= ((not Net_278_1 and not Net_278_0 and Net_161)
+	OR (Net_278_0 and Net_162)
+	OR (Net_278_1 and Net_162));
 
 Net_159 <= ((not Net_278_1 and Net_278_0 and Net_267)
 	OR (not Net_278_1 and not Net_278_0 and Net_266)
 	OR (Net_278_1 and Net_199));
 
-Net_167 <= ((not Net_278_1 and Net_278_0 and Net_166)
-	OR (not Net_278_1 and not Net_278_0 and Net_165)
-	OR (Net_278_1 and Net_199));
+Net_167 <= ((not Net_278_1 and not Net_278_0 and Net_165)
+	OR (Net_278_0 and Net_166)
+	OR (Net_278_1 and Net_166));
 
 Net_303 <= ((not Net_278_1 and not Net_278_0 and Net_301)
-	OR (not Net_278_1 and Net_278_0 and Net_305)
-	OR (Net_278_1 and Net_322));
+	OR (Net_278_0 and Net_305)
+	OR (Net_278_1 and Net_305));
 
 \Mux_timer:cy_m0s8_tcpwm_1\:cy_m0s8_tcpwm_v1_0
 	GENERIC MAP(cy_registers=>"")
@@ -434,7 +434,7 @@ LED:cy_psoc3_pins_v1_10
 		out_clock_en=>tmpOE__INPUT_SELECT_net_1,
 		out_reset=>zero,
 		interrupt=>tmpINTERRUPT_0__LED_net_0);
-Drive_Right_MCU:cy_psoc3_pins_v1_10
+M_in_1:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"340a82c6-54d6-4536-9617-8b2782e699e1",
 		drive_mode=>"001",
 		ibuf_enabled=>"1",
@@ -493,8 +493,8 @@ Drive_Right_MCU:cy_psoc3_pins_v1_10
 		y=>(zero),
 		fb=>Net_153,
 		analog=>(open),
-		io=>(tmpIO_0__Drive_Right_MCU_net_0),
-		siovref=>(tmpSIOVREF__Drive_Right_MCU_net_0),
+		io=>(tmpIO_0__M_in_1_net_0),
+		siovref=>(tmpSIOVREF__M_in_1_net_0),
 		annotation=>(open),
 		in_clock=>zero,
 		in_clock_en=>tmpOE__INPUT_SELECT_net_1,
@@ -502,8 +502,8 @@ Drive_Right_MCU:cy_psoc3_pins_v1_10
 		out_clock=>zero,
 		out_clock_en=>tmpOE__INPUT_SELECT_net_1,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__Drive_Right_MCU_net_0);
-Drive_Right_Backup:cy_psoc3_pins_v1_10
+		interrupt=>tmpINTERRUPT_0__M_in_1_net_0);
+B_in_1:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"350d78d7-9e11-4357-bd72-e336d1a20fd1",
 		drive_mode=>"001",
 		ibuf_enabled=>"1",
@@ -562,8 +562,8 @@ Drive_Right_Backup:cy_psoc3_pins_v1_10
 		y=>(zero),
 		fb=>Net_200,
 		analog=>(open),
-		io=>(tmpIO_0__Drive_Right_Backup_net_0),
-		siovref=>(tmpSIOVREF__Drive_Right_Backup_net_0),
+		io=>(tmpIO_0__B_in_1_net_0),
+		siovref=>(tmpSIOVREF__B_in_1_net_0),
 		annotation=>(open),
 		in_clock=>zero,
 		in_clock_en=>tmpOE__INPUT_SELECT_net_1,
@@ -571,8 +571,8 @@ Drive_Right_Backup:cy_psoc3_pins_v1_10
 		out_clock=>zero,
 		out_clock_en=>tmpOE__INPUT_SELECT_net_1,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__Drive_Right_Backup_net_0);
-Drive_Left_MCU:cy_psoc3_pins_v1_10
+		interrupt=>tmpINTERRUPT_0__B_in_1_net_0);
+M_in_2:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"fd1127e7-4ac2-40d0-8ca2-a43df3fca05e",
 		drive_mode=>"001",
 		ibuf_enabled=>"1",
@@ -631,8 +631,8 @@ Drive_Left_MCU:cy_psoc3_pins_v1_10
 		y=>(zero),
 		fb=>Net_266,
 		analog=>(open),
-		io=>(tmpIO_0__Drive_Left_MCU_net_0),
-		siovref=>(tmpSIOVREF__Drive_Left_MCU_net_0),
+		io=>(tmpIO_0__M_in_2_net_0),
+		siovref=>(tmpSIOVREF__M_in_2_net_0),
 		annotation=>(open),
 		in_clock=>zero,
 		in_clock_en=>tmpOE__INPUT_SELECT_net_1,
@@ -640,8 +640,8 @@ Drive_Left_MCU:cy_psoc3_pins_v1_10
 		out_clock=>zero,
 		out_clock_en=>tmpOE__INPUT_SELECT_net_1,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__Drive_Left_MCU_net_0);
-Drive_Left_Backup:cy_psoc3_pins_v1_10
+		interrupt=>tmpINTERRUPT_0__M_in_2_net_0);
+B_in_2:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"c37f1b90-4819-49af-955b-bf542e88b728",
 		drive_mode=>"001",
 		ibuf_enabled=>"1",
@@ -700,8 +700,8 @@ Drive_Left_Backup:cy_psoc3_pins_v1_10
 		y=>(zero),
 		fb=>Net_267,
 		analog=>(open),
-		io=>(tmpIO_0__Drive_Left_Backup_net_0),
-		siovref=>(tmpSIOVREF__Drive_Left_Backup_net_0),
+		io=>(tmpIO_0__B_in_2_net_0),
+		siovref=>(tmpSIOVREF__B_in_2_net_0),
 		annotation=>(open),
 		in_clock=>zero,
 		in_clock_en=>tmpOE__INPUT_SELECT_net_1,
@@ -709,8 +709,8 @@ Drive_Left_Backup:cy_psoc3_pins_v1_10
 		out_clock=>zero,
 		out_clock_en=>tmpOE__INPUT_SELECT_net_1,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__Drive_Left_Backup_net_0);
-Camera_Pan_MCU:cy_psoc3_pins_v1_10
+		interrupt=>tmpINTERRUPT_0__B_in_2_net_0);
+M_in_4:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"0e7c51d4-aef8-4b3d-8520-4caaea73c53c",
 		drive_mode=>"001",
 		ibuf_enabled=>"1",
@@ -769,8 +769,8 @@ Camera_Pan_MCU:cy_psoc3_pins_v1_10
 		y=>(zero),
 		fb=>Net_161,
 		analog=>(open),
-		io=>(tmpIO_0__Camera_Pan_MCU_net_0),
-		siovref=>(tmpSIOVREF__Camera_Pan_MCU_net_0),
+		io=>(tmpIO_0__M_in_4_net_0),
+		siovref=>(tmpSIOVREF__M_in_4_net_0),
 		annotation=>(open),
 		in_clock=>zero,
 		in_clock_en=>tmpOE__INPUT_SELECT_net_1,
@@ -778,8 +778,8 @@ Camera_Pan_MCU:cy_psoc3_pins_v1_10
 		out_clock=>zero,
 		out_clock_en=>tmpOE__INPUT_SELECT_net_1,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__Camera_Pan_MCU_net_0);
-Camera_Pan_Backup:cy_psoc3_pins_v1_10
+		interrupt=>tmpINTERRUPT_0__M_in_4_net_0);
+B_in_4:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"fe137c29-1e68-4de1-83e5-e8575abeacdf",
 		drive_mode=>"001",
 		ibuf_enabled=>"1",
@@ -838,8 +838,8 @@ Camera_Pan_Backup:cy_psoc3_pins_v1_10
 		y=>(zero),
 		fb=>Net_162,
 		analog=>(open),
-		io=>(tmpIO_0__Camera_Pan_Backup_net_0),
-		siovref=>(tmpSIOVREF__Camera_Pan_Backup_net_0),
+		io=>(tmpIO_0__B_in_4_net_0),
+		siovref=>(tmpSIOVREF__B_in_4_net_0),
 		annotation=>(open),
 		in_clock=>zero,
 		in_clock_en=>tmpOE__INPUT_SELECT_net_1,
@@ -847,8 +847,8 @@ Camera_Pan_Backup:cy_psoc3_pins_v1_10
 		out_clock=>zero,
 		out_clock_en=>tmpOE__INPUT_SELECT_net_1,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__Camera_Pan_Backup_net_0);
-Camera_Tilt_MCU:cy_psoc3_pins_v1_10
+		interrupt=>tmpINTERRUPT_0__B_in_4_net_0);
+M_in_3:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"e0e56a05-85ce-4362-8864-184e0734ab58",
 		drive_mode=>"001",
 		ibuf_enabled=>"1",
@@ -907,8 +907,8 @@ Camera_Tilt_MCU:cy_psoc3_pins_v1_10
 		y=>(zero),
 		fb=>Net_165,
 		analog=>(open),
-		io=>(tmpIO_0__Camera_Tilt_MCU_net_0),
-		siovref=>(tmpSIOVREF__Camera_Tilt_MCU_net_0),
+		io=>(tmpIO_0__M_in_3_net_0),
+		siovref=>(tmpSIOVREF__M_in_3_net_0),
 		annotation=>(open),
 		in_clock=>zero,
 		in_clock_en=>tmpOE__INPUT_SELECT_net_1,
@@ -916,8 +916,8 @@ Camera_Tilt_MCU:cy_psoc3_pins_v1_10
 		out_clock=>zero,
 		out_clock_en=>tmpOE__INPUT_SELECT_net_1,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__Camera_Tilt_MCU_net_0);
-Camera_Tilt_Backup:cy_psoc3_pins_v1_10
+		interrupt=>tmpINTERRUPT_0__M_in_3_net_0);
+B_in_3:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"204437f7-6e91-419a-bc62-240c71c65f2c",
 		drive_mode=>"001",
 		ibuf_enabled=>"1",
@@ -976,8 +976,8 @@ Camera_Tilt_Backup:cy_psoc3_pins_v1_10
 		y=>(zero),
 		fb=>Net_166,
 		analog=>(open),
-		io=>(tmpIO_0__Camera_Tilt_Backup_net_0),
-		siovref=>(tmpSIOVREF__Camera_Tilt_Backup_net_0),
+		io=>(tmpIO_0__B_in_3_net_0),
+		siovref=>(tmpSIOVREF__B_in_3_net_0),
 		annotation=>(open),
 		in_clock=>zero,
 		in_clock_en=>tmpOE__INPUT_SELECT_net_1,
@@ -985,8 +985,8 @@ Camera_Tilt_Backup:cy_psoc3_pins_v1_10
 		out_clock=>zero,
 		out_clock_en=>tmpOE__INPUT_SELECT_net_1,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__Camera_Tilt_Backup_net_0);
-Drive_Right:cy_psoc3_pins_v1_10
+		interrupt=>tmpINTERRUPT_0__B_in_3_net_0);
+Out_1:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"e851a3b9-efb8-48be-bbb8-b303b216c393",
 		drive_mode=>"110",
 		ibuf_enabled=>"1",
@@ -1043,10 +1043,10 @@ Drive_Right:cy_psoc3_pins_v1_10
 		input_buffer_sel=>"00")
 	PORT MAP(oe=>(tmpOE__INPUT_SELECT_net_1),
 		y=>Net_155,
-		fb=>(tmpFB_0__Drive_Right_net_0),
+		fb=>(tmpFB_0__Out_1_net_0),
 		analog=>(open),
-		io=>(tmpIO_0__Drive_Right_net_0),
-		siovref=>(tmpSIOVREF__Drive_Right_net_0),
+		io=>(tmpIO_0__Out_1_net_0),
+		siovref=>(tmpSIOVREF__Out_1_net_0),
 		annotation=>(open),
 		in_clock=>zero,
 		in_clock_en=>tmpOE__INPUT_SELECT_net_1,
@@ -1054,8 +1054,8 @@ Drive_Right:cy_psoc3_pins_v1_10
 		out_clock=>zero,
 		out_clock_en=>tmpOE__INPUT_SELECT_net_1,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__Drive_Right_net_0);
-Drive_Left:cy_psoc3_pins_v1_10
+		interrupt=>tmpINTERRUPT_0__Out_1_net_0);
+Out_2:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"15279825-9274-4f3c-ace8-045f65b21860",
 		drive_mode=>"110",
 		ibuf_enabled=>"1",
@@ -1112,10 +1112,10 @@ Drive_Left:cy_psoc3_pins_v1_10
 		input_buffer_sel=>"00")
 	PORT MAP(oe=>(tmpOE__INPUT_SELECT_net_1),
 		y=>Net_159,
-		fb=>(tmpFB_0__Drive_Left_net_0),
+		fb=>(tmpFB_0__Out_2_net_0),
 		analog=>(open),
-		io=>(tmpIO_0__Drive_Left_net_0),
-		siovref=>(tmpSIOVREF__Drive_Left_net_0),
+		io=>(tmpIO_0__Out_2_net_0),
+		siovref=>(tmpSIOVREF__Out_2_net_0),
 		annotation=>(open),
 		in_clock=>zero,
 		in_clock_en=>tmpOE__INPUT_SELECT_net_1,
@@ -1123,8 +1123,8 @@ Drive_Left:cy_psoc3_pins_v1_10
 		out_clock=>zero,
 		out_clock_en=>tmpOE__INPUT_SELECT_net_1,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__Drive_Left_net_0);
-Camera_Pan:cy_psoc3_pins_v1_10
+		interrupt=>tmpINTERRUPT_0__Out_2_net_0);
+Out_4:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"9ae1b4e3-4f1c-45a5-9de9-a1a85cb059d5",
 		drive_mode=>"110",
 		ibuf_enabled=>"1",
@@ -1181,10 +1181,10 @@ Camera_Pan:cy_psoc3_pins_v1_10
 		input_buffer_sel=>"00")
 	PORT MAP(oe=>(tmpOE__INPUT_SELECT_net_1),
 		y=>Net_163,
-		fb=>(tmpFB_0__Camera_Pan_net_0),
+		fb=>(tmpFB_0__Out_4_net_0),
 		analog=>(open),
-		io=>(tmpIO_0__Camera_Pan_net_0),
-		siovref=>(tmpSIOVREF__Camera_Pan_net_0),
+		io=>(tmpIO_0__Out_4_net_0),
+		siovref=>(tmpSIOVREF__Out_4_net_0),
 		annotation=>(open),
 		in_clock=>zero,
 		in_clock_en=>tmpOE__INPUT_SELECT_net_1,
@@ -1192,8 +1192,8 @@ Camera_Pan:cy_psoc3_pins_v1_10
 		out_clock=>zero,
 		out_clock_en=>tmpOE__INPUT_SELECT_net_1,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__Camera_Pan_net_0);
-Camera_Tilt:cy_psoc3_pins_v1_10
+		interrupt=>tmpINTERRUPT_0__Out_4_net_0);
+Out_3:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"f5a36d19-a254-45f0-b254-ea06997facf5",
 		drive_mode=>"110",
 		ibuf_enabled=>"1",
@@ -1250,10 +1250,10 @@ Camera_Tilt:cy_psoc3_pins_v1_10
 		input_buffer_sel=>"00")
 	PORT MAP(oe=>(tmpOE__INPUT_SELECT_net_1),
 		y=>Net_167,
-		fb=>(tmpFB_0__Camera_Tilt_net_0),
+		fb=>(tmpFB_0__Out_3_net_0),
 		analog=>(open),
-		io=>(tmpIO_0__Camera_Tilt_net_0),
-		siovref=>(tmpSIOVREF__Camera_Tilt_net_0),
+		io=>(tmpIO_0__Out_3_net_0),
+		siovref=>(tmpSIOVREF__Out_3_net_0),
 		annotation=>(open),
 		in_clock=>zero,
 		in_clock_en=>tmpOE__INPUT_SELECT_net_1,
@@ -1261,7 +1261,7 @@ Camera_Tilt:cy_psoc3_pins_v1_10
 		out_clock=>zero,
 		out_clock_en=>tmpOE__INPUT_SELECT_net_1,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__Camera_Tilt_net_0);
+		interrupt=>tmpINTERRUPT_0__Out_3_net_0);
 \Default_PWM:cy_m0s8_tcpwm_1\:cy_m0s8_tcpwm_v1_0
 	GENERIC MAP(cy_registers=>"")
 	PORT MAP(clock=>Net_209,
@@ -1289,7 +1289,7 @@ Clock_1:cy_clock_v1_0
 ISR_1:cy_isr_v1_0
 	GENERIC MAP(int_type=>"10")
 	PORT MAP(int_signal=>Net_203);
-Camera_select:cy_psoc3_pins_v1_10
+Out_5:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"a4238ab7-88aa-44d3-9652-cf91a93a15da",
 		drive_mode=>"110",
 		ibuf_enabled=>"1",
@@ -1346,10 +1346,10 @@ Camera_select:cy_psoc3_pins_v1_10
 		input_buffer_sel=>"00")
 	PORT MAP(oe=>(tmpOE__INPUT_SELECT_net_1),
 		y=>Net_303,
-		fb=>(tmpFB_0__Camera_select_net_0),
+		fb=>(tmpFB_0__Out_5_net_0),
 		analog=>(open),
-		io=>(tmpIO_0__Camera_select_net_0),
-		siovref=>(tmpSIOVREF__Camera_select_net_0),
+		io=>(tmpIO_0__Out_5_net_0),
+		siovref=>(tmpSIOVREF__Out_5_net_0),
 		annotation=>(open),
 		in_clock=>zero,
 		in_clock_en=>tmpOE__INPUT_SELECT_net_1,
@@ -1357,8 +1357,8 @@ Camera_select:cy_psoc3_pins_v1_10
 		out_clock=>zero,
 		out_clock_en=>tmpOE__INPUT_SELECT_net_1,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__Camera_select_net_0);
-Camera_Sel_Backup:cy_psoc3_pins_v1_10
+		interrupt=>tmpINTERRUPT_0__Out_5_net_0);
+B_in_5:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"e72106e9-035a-4532-b714-d67bdb37e706",
 		drive_mode=>"001",
 		ibuf_enabled=>"1",
@@ -1417,8 +1417,8 @@ Camera_Sel_Backup:cy_psoc3_pins_v1_10
 		y=>(zero),
 		fb=>Net_305,
 		analog=>(open),
-		io=>(tmpIO_0__Camera_Sel_Backup_net_0),
-		siovref=>(tmpSIOVREF__Camera_Sel_Backup_net_0),
+		io=>(tmpIO_0__B_in_5_net_0),
+		siovref=>(tmpSIOVREF__B_in_5_net_0),
 		annotation=>(open),
 		in_clock=>zero,
 		in_clock_en=>tmpOE__INPUT_SELECT_net_1,
@@ -1426,8 +1426,8 @@ Camera_Sel_Backup:cy_psoc3_pins_v1_10
 		out_clock=>zero,
 		out_clock_en=>tmpOE__INPUT_SELECT_net_1,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__Camera_Sel_Backup_net_0);
-Camera_Sel_MCU:cy_psoc3_pins_v1_10
+		interrupt=>tmpINTERRUPT_0__B_in_5_net_0);
+M_in_5:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"8ad26559-7f4f-4594-b510-fa317a34e01d",
 		drive_mode=>"001",
 		ibuf_enabled=>"1",
@@ -1486,8 +1486,8 @@ Camera_Sel_MCU:cy_psoc3_pins_v1_10
 		y=>(zero),
 		fb=>Net_301,
 		analog=>(open),
-		io=>(tmpIO_0__Camera_Sel_MCU_net_0),
-		siovref=>(tmpSIOVREF__Camera_Sel_MCU_net_0),
+		io=>(tmpIO_0__M_in_5_net_0),
+		siovref=>(tmpSIOVREF__M_in_5_net_0),
 		annotation=>(open),
 		in_clock=>zero,
 		in_clock_en=>tmpOE__INPUT_SELECT_net_1,
@@ -1495,7 +1495,7 @@ Camera_Sel_MCU:cy_psoc3_pins_v1_10
 		out_clock=>zero,
 		out_clock_en=>tmpOE__INPUT_SELECT_net_1,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__Camera_Sel_MCU_net_0);
+		interrupt=>tmpINTERRUPT_0__M_in_5_net_0);
 Arm_select:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba",
 		drive_mode=>"001",
@@ -1589,7 +1589,7 @@ Clock_3:cy_clock_v1_0
 		underflow=>Net_361,
 		overflow=>Net_360,
 		compare_match=>Net_362,
-		line_out=>Net_322,
+		line_out=>Net_383,
 		line_out_compl=>Net_364,
 		interrupt=>Net_326);
 ISR_2:cy_isr_v1_0

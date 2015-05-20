@@ -1,7 +1,5 @@
-Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn\PWM_MUX.cyprj|ed42e5f3-f815-4124-bc56-5fe71638a9eb
-C:\Program Files (x86)\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|370894f9-a342-4b4b-9266-c6611feebc70
-C:\Program Files (x86)\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|04ab2c39-d138-402e-b9d6-d94691e7455a
-C:\Program Files (x86)\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|44521b8c-3583-442a-843f-08fe70564b95
-C:\Program Files (x86)\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|78b5b163-31f9-4289-9d9f-e6f87f79295d
-C:\Program Files (x86)\Cypress\PSoC Creator\3.1\PSoC Creator\dev\psoc4\PSoC4AnalogDevice\psoc4arch.cydsn\psoc4arch.cyprj|2cfc4e4f-1a4b-44db-bf25-c852798e74e1
-C:\Program Files (x86)\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|cf10577c-38e9-44db-81ba-ab2740eb6d58
+Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn\PWM_MUX.cyprj|f8129ed6-b7d7-492a-a5c6-bd0297c4ff75
+C:\Program Files (x86)\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|d6e931c0-3b26-4832-b2cd-c3f8cd439eed
+C:\Program Files (x86)\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|a1be558d-97ea-43c7-9187-a44dea3a8af1
+C:\Program Files (x86)\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|296181e3-9756-4e09-aec3-6c7b6a03790d
+C:\Program Files (x86)\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|eb37cd3a-347d-4e20-a9d2-e5153764dc73

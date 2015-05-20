@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc6g86wo.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
   30:.\Generated_Source\PSoC4/INPUT_SELECT.c **** ********************************************************************************
   31:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
   32:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Summary:
-ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 2
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc6g86wo.s 			page 2
 
 
   33:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *  Assign a new value to the digital port's data output register.  
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
   66 003c 0F32     		add	r2, r2, #15
   67 003e 1278     		ldrb	r2, [r2]
   68 0040 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 3
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc6g86wo.s 			page 3
 
 
   47:.\Generated_Source\PSoC4/INPUT_SELECT.c **** }
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
   95 0002 82B0     		sub	sp, sp, #8
   96              		.cfi_def_cfa_offset 16
   97 0004 00AF     		add	r7, sp, #0
-ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 4
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc6g86wo.s 			page 4
 
 
   98              		.cfi_def_cfa_register 7
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
   80:.\Generated_Source\PSoC4/INPUT_SELECT.c **** /*******************************************************************************
   81:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Function Name: INPUT_SELECT_Read
   82:.\Generated_Source\PSoC4/INPUT_SELECT.c **** ********************************************************************************
-ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 5
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc6g86wo.s 			page 5
 
 
   83:.\Generated_Source\PSoC4/INPUT_SELECT.c **** *
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
  102:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 
  103:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 
  104:.\Generated_Source\PSoC4/INPUT_SELECT.c **** /*******************************************************************************
-ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 6
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc6g86wo.s 			page 6
 
 
  105:.\Generated_Source\PSoC4/INPUT_SELECT.c **** * Function Name: INPUT_SELECT_ReadDataReg
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
  124:.\Generated_Source\PSoC4/INPUT_SELECT.c **** /* If Interrupts Are Enabled for this Pins component */ 
  125:.\Generated_Source\PSoC4/INPUT_SELECT.c **** #if defined(INPUT_SELECT_INTSTAT) 
  126:.\Generated_Source\PSoC4/INPUT_SELECT.c **** 
-ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 7
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc6g86wo.s 			page 7
 
 
  127:.\Generated_Source\PSoC4/INPUT_SELECT.c ****     /*******************************************************************************
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
  250 002a 80BD     		pop	{r7, pc}
  251              	.L18:
  252              		.align	2
-ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 8
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc6g86wo.s 			page 8
 
 
  253              	.L17:
@@ -436,78 +436,78 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
  265 0006 00000000 		.4byte	.Ldebug_abbrev0
  266 000a 04       		.byte	0x4
  267 000b 01       		.uleb128 0x1
- 268 000c 3A010000 		.4byte	.LASF24
+ 268 000c 0C010000 		.4byte	.LASF24
  269 0010 01       		.byte	0x1
- 270 0011 DE000000 		.4byte	.LASF25
- 271 0015 3A000000 		.4byte	.LASF26
+ 270 0011 B0000000 		.4byte	.LASF25
+ 271 0015 9B010000 		.4byte	.LASF26
  272 0019 00000000 		.4byte	.Ldebug_ranges0+0
  273 001d 00000000 		.4byte	0
  274 0021 00000000 		.4byte	.Ldebug_line0
  275 0025 02       		.uleb128 0x2
  276 0026 01       		.byte	0x1
  277 0027 06       		.byte	0x6
- 278 0028 0E020000 		.4byte	.LASF0
+ 278 0028 08020000 		.4byte	.LASF0
  279 002c 02       		.uleb128 0x2
  280 002d 01       		.byte	0x1
  281 002e 08       		.byte	0x8
- 282 002f 92000000 		.4byte	.LASF1
+ 282 002f 64000000 		.4byte	.LASF1
  283 0033 02       		.uleb128 0x2
  284 0034 02       		.byte	0x2
  285 0035 05       		.byte	0x5
- 286 0036 F5010000 		.4byte	.LASF2
+ 286 0036 EF010000 		.4byte	.LASF2
  287 003a 02       		.uleb128 0x2
  288 003b 02       		.byte	0x2
  289 003c 07       		.byte	0x7
- 290 003d B8000000 		.4byte	.LASF3
+ 290 003d 8A000000 		.4byte	.LASF3
  291 0041 02       		.uleb128 0x2
  292 0042 04       		.byte	0x4
  293 0043 05       		.byte	0x5
- 294 0044 05020000 		.4byte	.LASF4
+ 294 0044 FF010000 		.4byte	.LASF4
  295 0048 02       		.uleb128 0x2
  296 0049 04       		.byte	0x4
  297 004a 07       		.byte	0x7
- 298 004b A6000000 		.4byte	.LASF5
+ 298 004b 78000000 		.4byte	.LASF5
  299 004f 02       		.uleb128 0x2
  300 0050 08       		.byte	0x8
  301 0051 05       		.byte	0x5
- 302 0052 BB010000 		.4byte	.LASF6
+ 302 0052 8D010000 		.4byte	.LASF6
  303 0056 02       		.uleb128 0x2
  304 0057 08       		.byte	0x8
  305 0058 07       		.byte	0x7
- 306 0059 7B000000 		.4byte	.LASF7
+ 306 0059 4D000000 		.4byte	.LASF7
  307 005d 03       		.uleb128 0x3
  308 005e 04       		.byte	0x4
  309 005f 05       		.byte	0x5
-ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 9
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc6g86wo.s 			page 9
 
 
  310 0060 696E7400 		.ascii	"int\000"
  311 0064 02       		.uleb128 0x2
  312 0065 04       		.byte	0x4
  313 0066 07       		.byte	0x7
- 314 0067 2D010000 		.4byte	.LASF8
+ 314 0067 FF000000 		.4byte	.LASF8
  315 006b 04       		.uleb128 0x4
- 316 006c FF010000 		.4byte	.LASF9
+ 316 006c F9010000 		.4byte	.LASF9
  317 0070 02       		.byte	0x2
  318 0071 A1       		.byte	0xa1
  319 0072 2C000000 		.4byte	0x2c
  320 0076 04       		.uleb128 0x4
- 321 0077 26010000 		.4byte	.LASF10
+ 321 0077 F8000000 		.4byte	.LASF10
  322 007b 02       		.byte	0x2
  323 007c A3       		.byte	0xa3
  324 007d 48000000 		.4byte	0x48
  325 0081 02       		.uleb128 0x2
  326 0082 04       		.byte	0x4
  327 0083 04       		.byte	0x4
- 328 0084 75000000 		.4byte	.LASF11
+ 328 0084 47000000 		.4byte	.LASF11
  329 0088 02       		.uleb128 0x2
  330 0089 08       		.byte	0x8
  331 008a 04       		.byte	0x4
- 332 008b 1F010000 		.4byte	.LASF12
+ 332 008b F1000000 		.4byte	.LASF12
  333 008f 02       		.uleb128 0x2
  334 0090 01       		.byte	0x1
  335 0091 08       		.byte	0x8
- 336 0092 D6010000 		.4byte	.LASF13
+ 336 0092 D0010000 		.4byte	.LASF13
  337 0096 05       		.uleb128 0x5
  338 0097 1C000000 		.4byte	.LASF14
  339 009b 02       		.byte	0x2
@@ -516,7 +516,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
  342 00a2 06       		.uleb128 0x6
  343 00a3 76000000 		.4byte	0x76
  344 00a7 07       		.uleb128 0x7
- 345 00a8 CB000000 		.4byte	.LASF15
+ 345 00a8 9D000000 		.4byte	.LASF15
  346 00ac 01       		.byte	0x1
  347 00ad 2A       		.byte	0x2a
  348 00ae 00000000 		.4byte	.LFB0
@@ -525,7 +525,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
  351 00b7 9C       		.byte	0x9c
  352 00b8 D9000000 		.4byte	0xd9
  353 00bc 08       		.uleb128 0x8
- 354 00bd 22000000 		.4byte	.LASF17
+ 354 00bd 2F000000 		.4byte	.LASF17
  355 00c1 01       		.byte	0x1
  356 00c2 2A       		.byte	0x2a
  357 00c3 6B000000 		.4byte	0x6b
@@ -533,19 +533,19 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
  359 00c8 91       		.byte	0x91
  360 00c9 6F       		.sleb128 -17
  361 00ca 09       		.uleb128 0x9
- 362 00cb A0000000 		.4byte	.LASF22
+ 362 00cb 72000000 		.4byte	.LASF22
  363 00cf 01       		.byte	0x1
  364 00d0 2C       		.byte	0x2c
  365 00d1 6B000000 		.4byte	0x6b
  366 00d5 02       		.uleb128 0x2
-ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 10
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc6g86wo.s 			page 10
 
 
  367 00d6 91       		.byte	0x91
  368 00d7 77       		.sleb128 -9
  369 00d8 00       		.byte	0
  370 00d9 07       		.uleb128 0x7
- 371 00da DB010000 		.4byte	.LASF16
+ 371 00da D5010000 		.4byte	.LASF16
  372 00de 01       		.byte	0x1
  373 00df 49       		.byte	0x49
  374 00e0 00000000 		.4byte	.LFB1
@@ -554,7 +554,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
  377 00e9 9C       		.byte	0x9c
  378 00ea FD000000 		.4byte	0xfd
  379 00ee 08       		.uleb128 0x8
- 380 00ef B6010000 		.4byte	.LASF18
+ 380 00ef 88010000 		.4byte	.LASF18
  381 00f3 01       		.byte	0x1
  382 00f4 49       		.byte	0x49
  383 00f5 6B000000 		.4byte	0x6b
@@ -563,7 +563,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
  386 00fb 77       		.sleb128 -9
  387 00fc 00       		.byte	0
  388 00fd 0A       		.uleb128 0xa
- 389 00fe 28000000 		.4byte	.LASF19
+ 389 00fe 35000000 		.4byte	.LASF19
  390 0102 01       		.byte	0x1
  391 0103 62       		.byte	0x62
  392 0104 6B000000 		.4byte	0x6b
@@ -572,7 +572,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
  395 0110 01       		.uleb128 0x1
  396 0111 9C       		.byte	0x9c
  397 0112 0A       		.uleb128 0xa
- 398 0113 06010000 		.4byte	.LASF20
+ 398 0113 D8000000 		.4byte	.LASF20
  399 0117 01       		.byte	0x1
  400 0118 76       		.byte	0x76
  401 0119 6B000000 		.4byte	0x6b
@@ -590,7 +590,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
  413 013a 01       		.uleb128 0x1
  414 013b 9C       		.byte	0x9c
  415 013c 09       		.uleb128 0x9
- 416 013d C9010000 		.4byte	.LASF23
+ 416 013d 22000000 		.4byte	.LASF23
  417 0141 01       		.byte	0x1
  418 0142 90       		.byte	0x90
  419 0143 6B000000 		.4byte	0x6b
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
  421 0148 91       		.byte	0x91
  422 0149 77       		.sleb128 -9
  423 014a 00       		.byte	0
-ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 11
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc6g86wo.s 			page 11
 
 
  424 014b 00       		.byte	0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
  478 0033 13       		.uleb128 0x13
  479 0034 00       		.byte	0
  480 0035 00       		.byte	0
-ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 12
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc6g86wo.s 			page 12
 
 
  481 0036 05       		.uleb128 0x5
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
  535 006d 49       		.uleb128 0x49
  536 006e 13       		.uleb128 0x13
  537 006f 02       		.uleb128 0x2
-ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 13
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc6g86wo.s 			page 13
 
 
  538 0070 18       		.uleb128 0x18
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
  592 00a7 27       		.uleb128 0x27
  593 00a8 19       		.uleb128 0x19
  594 00a9 49       		.uleb128 0x49
-ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 14
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc6g86wo.s 			page 14
 
 
  595 00aa 13       		.uleb128 0x13
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
  645 0000 494E5055 		.ascii	"INPUT_SELECT_ClearInterrupt\000"
  645      545F5345 
  645      4C454354 
-ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 15
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc6g86wo.s 			page 15
 
 
  645      5F436C65 
@@ -846,140 +846,138 @@ ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 1
  646              	.LASF14:
  647 001c 72656733 		.ascii	"reg32\000"
  647      3200
- 648              	.LASF17:
- 649 0022 76616C75 		.ascii	"value\000"
- 649      6500
- 650              	.LASF19:
- 651 0028 494E5055 		.ascii	"INPUT_SELECT_Read\000"
- 651      545F5345 
- 651      4C454354 
- 651      5F526561 
- 651      6400
- 652              	.LASF26:
- 653 003a 5A3A5C4F 		.ascii	"Z:\\OneDrive\\Tech\\GitHub\\Power-System\\PWM_MUX\\"
- 653      6E654472 
- 653      6976655C 
- 653      54656368 
- 653      5C476974 
- 654 0067 50574D5F 		.ascii	"PWM_MUX.cydsn\000"
- 654      4D55582E 
- 654      63796473 
- 654      6E00
- 655              	.LASF11:
- 656 0075 666C6F61 		.ascii	"float\000"
- 656      7400
- 657              	.LASF7:
- 658 007b 6C6F6E67 		.ascii	"long long unsigned int\000"
- 658      206C6F6E 
- 658      6720756E 
- 658      7369676E 
- 658      65642069 
- 659              	.LASF1:
- 660 0092 756E7369 		.ascii	"unsigned char\000"
- 660      676E6564 
- 660      20636861 
- 660      7200
- 661              	.LASF22:
- 662 00a0 64725661 		.ascii	"drVal\000"
- 662      6C00
- 663              	.LASF5:
- 664 00a6 6C6F6E67 		.ascii	"long unsigned int\000"
- 664      20756E73 
- 664      69676E65 
- 664      6420696E 
- 664      7400
- 665              	.LASF3:
- 666 00b8 73686F72 		.ascii	"short unsigned int\000"
- 666      7420756E 
- 666      7369676E 
- 666      65642069 
- 666      6E7400
- 667              	.LASF15:
- 668 00cb 494E5055 		.ascii	"INPUT_SELECT_Write\000"
- 668      545F5345 
- 668      4C454354 
-ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 16
+ 648              	.LASF23:
+ 649 0022 6D61736B 		.ascii	"maskedStatus\000"
+ 649      65645374 
+ 649      61747573 
+ 649      00
+ 650              	.LASF17:
+ 651 002f 76616C75 		.ascii	"value\000"
+ 651      6500
+ 652              	.LASF19:
+ 653 0035 494E5055 		.ascii	"INPUT_SELECT_Read\000"
+ 653      545F5345 
+ 653      4C454354 
+ 653      5F526561 
+ 653      6400
+ 654              	.LASF11:
+ 655 0047 666C6F61 		.ascii	"float\000"
+ 655      7400
+ 656              	.LASF7:
+ 657 004d 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 657      206C6F6E 
+ 657      6720756E 
+ 657      7369676E 
+ 657      65642069 
+ 658              	.LASF1:
+ 659 0064 756E7369 		.ascii	"unsigned char\000"
+ 659      676E6564 
+ 659      20636861 
+ 659      7200
+ 660              	.LASF22:
+ 661 0072 64725661 		.ascii	"drVal\000"
+ 661      6C00
+ 662              	.LASF5:
+ 663 0078 6C6F6E67 		.ascii	"long unsigned int\000"
+ 663      20756E73 
+ 663      69676E65 
+ 663      6420696E 
+ 663      7400
+ 664              	.LASF3:
+ 665 008a 73686F72 		.ascii	"short unsigned int\000"
+ 665      7420756E 
+ 665      7369676E 
+ 665      65642069 
+ 665      6E7400
+ 666              	.LASF15:
+ 667 009d 494E5055 		.ascii	"INPUT_SELECT_Write\000"
+ 667      545F5345 
+ 667      4C454354 
+ 667      5F577269 
+ 667      746500
+ 668              	.LASF25:
+ 669 00b0 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\INPUT_SELECT.c\000"
+ 669      6E657261 
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc6g86wo.s 			page 16
 
 
- 668      5F577269 
- 668      746500
- 669              	.LASF25:
- 670 00de 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\INPUT_SELECT.c\000"
- 670      6E657261 
- 670      7465645F 
- 670      536F7572 
- 670      63655C50 
- 671              	.LASF20:
- 672 0106 494E5055 		.ascii	"INPUT_SELECT_ReadDataReg\000"
- 672      545F5345 
- 672      4C454354 
- 672      5F526561 
- 672      64446174 
- 673              	.LASF12:
- 674 011f 646F7562 		.ascii	"double\000"
- 674      6C6500
- 675              	.LASF10:
- 676 0126 75696E74 		.ascii	"uint32\000"
- 676      333200
- 677              	.LASF8:
- 678 012d 756E7369 		.ascii	"unsigned int\000"
- 678      676E6564 
- 678      20696E74 
- 678      00
- 679              	.LASF24:
- 680 013a 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
- 680      4320342E 
- 680      382E3420 
- 680      32303134 
- 680      30353236 
- 681 016d 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
- 681      20726576 
- 681      6973696F 
- 681      6E203231 
- 681      31333538 
- 682 01a0 30202D66 		.ascii	"0 -ffunction-sections\000"
- 682      66756E63 
- 682      74696F6E 
- 682      2D736563 
- 682      74696F6E 
- 683              	.LASF18:
- 684 01b6 6D6F6465 		.ascii	"mode\000"
- 684      00
- 685              	.LASF6:
- 686 01bb 6C6F6E67 		.ascii	"long long int\000"
- 686      206C6F6E 
- 686      6720696E 
- 686      7400
- 687              	.LASF23:
- 688 01c9 6D61736B 		.ascii	"maskedStatus\000"
- 688      65645374 
- 688      61747573 
- 688      00
+ 669      7465645F 
+ 669      536F7572 
+ 669      63655C50 
+ 670              	.LASF20:
+ 671 00d8 494E5055 		.ascii	"INPUT_SELECT_ReadDataReg\000"
+ 671      545F5345 
+ 671      4C454354 
+ 671      5F526561 
+ 671      64446174 
+ 672              	.LASF12:
+ 673 00f1 646F7562 		.ascii	"double\000"
+ 673      6C6500
+ 674              	.LASF10:
+ 675 00f8 75696E74 		.ascii	"uint32\000"
+ 675      333200
+ 676              	.LASF8:
+ 677 00ff 756E7369 		.ascii	"unsigned int\000"
+ 677      676E6564 
+ 677      20696E74 
+ 677      00
+ 678              	.LASF24:
+ 679 010c 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
+ 679      4320342E 
+ 679      382E3420 
+ 679      32303134 
+ 679      30353236 
+ 680 013f 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
+ 680      20726576 
+ 680      6973696F 
+ 680      6E203231 
+ 680      31333538 
+ 681 0172 30202D66 		.ascii	"0 -ffunction-sections\000"
+ 681      66756E63 
+ 681      74696F6E 
+ 681      2D736563 
+ 681      74696F6E 
+ 682              	.LASF18:
+ 683 0188 6D6F6465 		.ascii	"mode\000"
+ 683      00
+ 684              	.LASF6:
+ 685 018d 6C6F6E67 		.ascii	"long long int\000"
+ 685      206C6F6E 
+ 685      6720696E 
+ 685      7400
+ 686              	.LASF26:
+ 687 019b 5A3A5C4F 		.ascii	"Z:\\OneDrive\\Tech\\GitHub\\Backup\\PWM_MUX\\PWM_MU"
+ 687      6E654472 
+ 687      6976655C 
+ 687      54656368 
+ 687      5C476974 
+ 688 01c8 582E6379 		.ascii	"X.cydsn\000"
+ 688      64736E00 
  689              	.LASF13:
- 690 01d6 63686172 		.ascii	"char\000"
+ 690 01d0 63686172 		.ascii	"char\000"
  690      00
-ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc7mH7wm.s 			page 17
-
-
  691              	.LASF16:
- 692 01db 494E5055 		.ascii	"INPUT_SELECT_SetDriveMode\000"
+ 692 01d5 494E5055 		.ascii	"INPUT_SELECT_SetDriveMode\000"
+ARM GAS  C:\Users\JOHNSO~1\AppData\Local\Temp\cc6g86wo.s 			page 17
+
+
  692      545F5345 
  692      4C454354 
  692      5F536574 
  692      44726976 
  693              	.LASF2:
- 694 01f5 73686F72 		.ascii	"short int\000"
+ 694 01ef 73686F72 		.ascii	"short int\000"
  694      7420696E 
  694      7400
  695              	.LASF9:
- 696 01ff 75696E74 		.ascii	"uint8\000"
+ 696 01f9 75696E74 		.ascii	"uint8\000"
  696      3800
  697              	.LASF4:
- 698 0205 6C6F6E67 		.ascii	"long int\000"
+ 698 01ff 6C6F6E67 		.ascii	"long int\000"
  698      20696E74 
  698      00
  699              	.LASF0:
- 700 020e 7369676E 		.ascii	"signed char\000"
+ 700 0208 7369676E 		.ascii	"signed char\000"
  700      65642063 
  700      68617200 
  701              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.4 20140526 (release) [ARM/embedded-4_8-br

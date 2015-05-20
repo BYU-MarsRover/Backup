@@ -2,11 +2,11 @@
 <blockRegMap version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cypress.com/xsd/cyblockregmap cyblockregmap.xsd" xmlns="http://cypress.com/xsd/cyblockregmap">
   <block name="Turret_Mux_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="ISR_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="W_Flap_Backup" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="W_Flap_MCU" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="B_in_5" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="M_in_5" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="Clock_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="W_Rotate" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Shoulder" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="Out_4" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="Out_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="Default_PWM" BASE="0x0" SIZE="0x0" desc="" visible="true">
     <block name="VMux_count" BASE="0x0" SIZE="0x0" desc="" visible="true" />
     <block name="VMux_reload" BASE="0x0" SIZE="0x0" desc="" visible="true" />
@@ -15,18 +15,18 @@
     <block name="VMux_capture" BASE="0x0" SIZE="0x0" desc="" visible="true" />
     <block name="VMux_clock" BASE="0x0" SIZE="0x0" desc="" visible="true" />
     <block name="cy_m0s8_tcpwm_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-    <register name="COUNTER" address="0x40050108" bitWidth="32" desc="Current counter value" />
-    <register name="CC" address="0x4005010C" bitWidth="32" desc="Compare / capture value" />
-    <register name="CC_BUF" address="0x40050110" bitWidth="32" desc="Compare / capture buffer value" />
-    <register name="PERIOD" address="0x40050114" bitWidth="32" desc="Period value" />
-    <register name="PERIOD_BUF" address="0x40050118" bitWidth="32" desc="Period buffer value" />
+    <register name="COUNTER" address="0x40050148" bitWidth="32" desc="Current counter value" />
+    <register name="CC" address="0x4005014C" bitWidth="32" desc="Compare / capture value" />
+    <register name="CC_BUF" address="0x40050150" bitWidth="32" desc="Compare / capture buffer value" />
+    <register name="PERIOD" address="0x40050154" bitWidth="32" desc="Period value" />
+    <register name="PERIOD_BUF" address="0x40050158" bitWidth="32" desc="Period buffer value" />
   </block>
-  <block name="Elbow" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="W_Flap" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Hand_Backup" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Hand_MCU" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="Out_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="Out_5" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="B_in_6" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="M_in_6" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="Arm_select_in" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Hand" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="Out_6" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="Turret_Mux_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="Clock_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="Arm_select_timer" BASE="0x0" SIZE="0x0" desc="" visible="true">
@@ -59,22 +59,22 @@
     <block name="VMux_capture" BASE="0x0" SIZE="0x0" desc="" visible="true" />
     <block name="VMux_clock" BASE="0x0" SIZE="0x0" desc="" visible="true" />
     <block name="cy_m0s8_tcpwm_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-    <register name="COUNTER" address="0x40050148" bitWidth="32" desc="Current counter value" />
-    <register name="CC" address="0x4005014C" bitWidth="32" desc="Compare / capture value" />
-    <register name="CC_BUF" address="0x40050150" bitWidth="32" desc="Compare / capture buffer value" />
-    <register name="PERIOD" address="0x40050154" bitWidth="32" desc="Period value" />
-    <register name="PERIOD_BUF" address="0x40050158" bitWidth="32" desc="Period buffer value" />
+    <register name="COUNTER" address="0x40050108" bitWidth="32" desc="Current counter value" />
+    <register name="CC" address="0x4005010C" bitWidth="32" desc="Compare / capture value" />
+    <register name="CC_BUF" address="0x40050110" bitWidth="32" desc="Compare / capture buffer value" />
+    <register name="PERIOD" address="0x40050114" bitWidth="32" desc="Period value" />
+    <register name="PERIOD_BUF" address="0x40050118" bitWidth="32" desc="Period buffer value" />
   </block>
   <block name="INPUT_SELECT" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="ISR" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="Turret_Mux_9" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Elbow_MCU" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="W_Rotate_Backup" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Turret" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Elbow_Backup" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="W_Rotate_MCU" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Turret_Backup" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Turret_MCU" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Shoulder_Backup" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Shoulder_MCU" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="M_in_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="B_in_4" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="Out_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="B_in_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="M_in_4" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="B_in_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="M_in_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="B_in_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="M_in_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
 </blockRegMap>

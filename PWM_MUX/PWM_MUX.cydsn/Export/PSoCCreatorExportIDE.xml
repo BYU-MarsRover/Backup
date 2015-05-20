@@ -25,7 +25,7 @@
       <Tool Name="postbuild" Command="" Options="" />
     </Toolchain>
   </Toolchains>
-  <Project Name="PWM_MUX" Path="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn" Version="4.20" Type="Normal">
+  <Project Name="PWM_MUX" Path="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn" Version="4.20" Type="Normal">
     <CMSIS_SVD_File>PWM_MUX.svd</CMSIS_SVD_File>
     <Datasheet />
     <LinkerFiles>
@@ -33,13 +33,13 @@
       <LinkerFile Toolchain="ARM MDK Generic">.\Generated_Source\PSoC4\Cm0RealView.scat</LinkerFile>
     </LinkerFiles>
     <Folders>
-      <Folder BuildType="BUILD" Path="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn">
-        <Files Root="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn">
+      <Folder BuildType="BUILD" Path="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn">
+        <Files Root="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn">
           <File BuildType="BUILD" Toolchain="">.\main.c</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn\Generated_Source\PSoC4">
-        <Files Root="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn">
+      <Folder BuildType="STRICT" Path="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn\Generated_Source\PSoC4">
+        <Files Root="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn">
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\cyfitter_cfg.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\cyfitter_cfg.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\cymetadata.c</File>
@@ -83,42 +83,6 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\LED.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\LED.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\LED_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Right_MCU.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Right_MCU.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Right_MCU_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Right_Backup.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Right_Backup.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Right_Backup_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Left_MCU.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Left_MCU.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Left_MCU_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Left_Backup.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Left_Backup.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Left_Backup_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Pan_MCU.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Pan_MCU.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Pan_MCU_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Pan_Backup.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Pan_Backup.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Pan_Backup_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Tilt_MCU.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Tilt_MCU.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Tilt_MCU_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Tilt_Backup.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Tilt_Backup.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Tilt_Backup_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Right.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Right.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Right_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Left.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Left.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Drive_Left_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Pan.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Pan.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Pan_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Tilt.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Tilt.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Tilt_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Clock_1.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Clock_1.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\ISR_1.c</File>
@@ -133,15 +97,6 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Default_PWM.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Default_PWM.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Default_PWM_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_select.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_select.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_select_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Sel_Backup.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Sel_Backup.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Sel_Backup_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Sel_MCU.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Sel_MCU.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Camera_Sel_MCU_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\ISR_3.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\ISR_3.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Clock_3.c</File>
@@ -155,49 +110,94 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Arm_select.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Arm_select.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Arm_select_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\M_in_1.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\M_in_1.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\M_in_1_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\B_in_1.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\B_in_1.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\B_in_1_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\M_in_2.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\M_in_2.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\M_in_2_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\B_in_2.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\B_in_2.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\B_in_2_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\M_in_4.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\M_in_4.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\M_in_4_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\B_in_4.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\B_in_4.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\B_in_4_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\M_in_3.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\M_in_3.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\M_in_3_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\B_in_3.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\B_in_3.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\B_in_3_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Out_1.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Out_1.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Out_1_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Out_2.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Out_2.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Out_2_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Out_4.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Out_4.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Out_4_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Out_3.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Out_3.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Out_3_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Out_5.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Out_5.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\Out_5_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\B_in_5.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\B_in_5.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\B_in_5_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\M_in_5.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\M_in_5.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC4\M_in_5_aliases.h</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn\Export\ARM_GCC_Generic">
-        <Files Root="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn">
+      <Folder BuildType="STRICT" Path="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn\Export\ARM_GCC_Generic">
+        <Files Root="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn">
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">.\Export\ARM_GCC_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn\Export\ARM_MDK_Generic">
-        <Files Root="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn">
+      <Folder BuildType="STRICT" Path="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn\Export\ARM_MDK_Generic">
+        <Files Root="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn">
           <File BuildType="BUILD" Toolchain="ARM MDK Generic">.\Export\ARM_MDK_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn\Export\ARM_IAR_Generic">
-        <Files Root="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn">
+      <Folder BuildType="STRICT" Path="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn\Export\ARM_IAR_Generic">
+        <Files Root="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn">
           <File BuildType="BUILD" Toolchain="ARM IAR Generic">.\Export\ARM_IAR_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\codegentemp">
-        <Files Root="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn" />
+        <Files Root="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_441">
-        <Files Root="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn" />
+        <Files Root="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_473">
-        <Files Root="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn" />
+        <Files Root="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051_Keil_951">
-        <Files Root="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn" />
+        <Files Root="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051">
-        <Files Root="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn" />
+        <Files Root="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM0">
-        <Files Root="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn" />
+        <Files Root="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM3">
-        <Files Root="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn" />
+        <Files Root="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\Generated_Source\PSoC3">
-        <Files Root="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn" />
+        <Files Root="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\Generated_Source\PSoC5">
-        <Files Root="Z:\OneDrive\Tech\GitHub\Power-System\PWM_MUX\PWM_MUX.cydsn" />
+        <Files Root="Z:\OneDrive\Tech\GitHub\Backup\PWM_MUX\PWM_MUX.cydsn" />
       </Folder>
     </Folders>
   </Project>

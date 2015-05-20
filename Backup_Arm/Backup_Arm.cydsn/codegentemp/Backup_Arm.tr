@@ -62,20 +62,18 @@ Port Name  Setup to Clk  Clock Name:Phase
 -----------------------3.2::Clock to Out
 ----------------------------------------
 
-Port Name        Clock to Out  Clock Name:Phase  
----------------  ------------  ----------------  
-Elbow(0)_PAD     35257         CyHFCLK:R         
-Elbow(0)_PAD     31042         Clock_4(FFB):R    
-Hand(0)_PAD      35042         CyHFCLK:R         
-Hand(0)_PAD      30828         Clock_4(FFB):R    
-Shoulder(0)_PAD  35493         CyHFCLK:R         
-Shoulder(0)_PAD  31269         Clock_4(FFB):R    
-Turret(0)_PAD    36646         CyHFCLK:R         
-Turret(0)_PAD    32431         Clock_4(FFB):R    
-W_Flap(0)_PAD    38588         CyHFCLK:R         
-W_Flap(0)_PAD    34651         Clock_4(FFB):R    
-W_Rotate(0)_PAD  36106         CyHFCLK:R         
-W_Rotate(0)_PAD  31882         Clock_4(FFB):R    
+Port Name     Clock to Out  Clock Name:Phase  
+------------  ------------  ----------------  
+Out_1(0)_PAD  35617         CyHFCLK:R         
+Out_2(0)_PAD  38023         CyHFCLK:R         
+Out_3(0)_PAD  37901         CyHFCLK:R         
+Out_3(0)_PAD  31557         Clock_2(FFB):R    
+Out_4(0)_PAD  36655         CyHFCLK:R         
+Out_4(0)_PAD  30979         Clock_2(FFB):R    
+Out_5(0)_PAD  36521         CyHFCLK:R         
+Out_5(0)_PAD  30969         Clock_2(FFB):R    
+Out_6(0)_PAD  36532         CyHFCLK:R         
+Out_6(0)_PAD  30981         Clock_2(FFB):R    
 
 
                          3.3::Pad to Pad

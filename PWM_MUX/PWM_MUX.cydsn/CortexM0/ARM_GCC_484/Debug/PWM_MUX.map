@@ -496,13 +496,13 @@ Discarded input sections
  .data          0x00000000        0x0 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
  .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
  .text.Arm_select_Write
-                0x00000000       0x4c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
+                0x00000000       0x48 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
  .text.Arm_select_SetDriveMode
-                0x00000000       0x30 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
+                0x00000000       0x2c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
  .text.Arm_select_ReadDataReg
                 0x00000000       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
  .text.Arm_select_ClearInterrupt
-                0x00000000       0x30 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
+                0x00000000       0x2c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
  .text          0x00000000       0x9c c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
  .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
@@ -598,7 +598,7 @@ END GROUP
                 0x00003f80                appl2_start = (appl1_start + ALIGN ((((0x8000 - appl1_start) - (0x2 * CY_FLASH_ROW_SIZE)) / 0x2), CY_FLASH_ROW_SIZE))
                 0x00000000                appl_start = (CY_APPL_NUM == 0x1)?appl1_start:appl2_start
 
-.text           0x00000000      0xc34
+.text           0x00000000      0xbfc
  CREATE_OBJECT_SYMBOLS
                 0x00000000                PROVIDE (__cy_interrupt_vector, RomVectors)
  *(.romvectors)
@@ -612,138 +612,138 @@ END GROUP
                 0x00000010                Reset
                 0x00000001                ASSERT ((. != __cy_reset), No reset code)
  *(.psocinit)
- .psocinit      0x00000018      0x344 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(cyfitter_cfg.o)
+ .psocinit      0x00000018      0x30c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(cyfitter_cfg.o)
                 0x00000184                cyfitter_cfg
-                0x0000035c                . = MAX (., 0x100)
+                0x00000324                . = MAX (., 0x100)
  *(.text .text.* .gnu.linkonce.t.*)
- .text          0x0000035c       0x60 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
- .text.main     0x000003bc       0xc4 .\CortexM0\ARM_GCC_484\Debug\main.o
-                0x000003bc                main
+ .text          0x00000324       0x60 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .text.main     0x00000384       0xc4 .\CortexM0\ARM_GCC_484\Debug\main.o
+                0x00000384                main
  .text.IntDefaultHandler
-                0x00000480        0x8 .\CortexM0\ARM_GCC_484\Debug\Cm0Start.o
-                0x00000480                IntDefaultHandler
- .text.Start_c  0x00000488       0x98 .\CortexM0\ARM_GCC_484\Debug\Cm0Start.o
-                0x00000488                Start_c
+                0x00000448        0x8 .\CortexM0\ARM_GCC_484\Debug\Cm0Start.o
+                0x00000448                IntDefaultHandler
+ .text.Start_c  0x00000450       0x98 .\CortexM0\ARM_GCC_484\Debug\Cm0Start.o
+                0x00000450                Start_c
  .text.initialize_psoc
-                0x00000520       0x64 .\CortexM0\ARM_GCC_484\Debug\Cm0Start.o
-                0x00000520                initialize_psoc
+                0x000004e8       0x64 .\CortexM0\ARM_GCC_484\Debug\Cm0Start.o
+                0x000004e8                initialize_psoc
  .text.CYMEMZERO
-                0x00000584       0x20 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(cyfitter_cfg.o)
+                0x0000054c       0x20 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(cyfitter_cfg.o)
  .text.cfg_write_bytes32
-                0x000005a4       0x80 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(cyfitter_cfg.o)
+                0x0000056c       0x80 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(cyfitter_cfg.o)
  .text.AnalogSetDefault
-                0x00000624        0x8 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(cyfitter_cfg.o)
+                0x000005ec        0x8 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(cyfitter_cfg.o)
  .text.INPUT_SELECT_Write
-                0x0000062c       0x4c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(INPUT_SELECT.o)
-                0x0000062c                INPUT_SELECT_Write
- .text          0x00000678       0x28 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(CyBootAsmGnu.o)
-                0x00000678                CyDelayCycles
-                0x0000068c                CyEnterCriticalSection
-                0x00000694                CyExitCriticalSection
+                0x000005f4       0x4c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(INPUT_SELECT.o)
+                0x000005f4                INPUT_SELECT_Write
+ .text          0x00000640       0x28 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(CyBootAsmGnu.o)
+                0x00000640                CyDelayCycles
+                0x00000654                CyEnterCriticalSection
+                0x0000065c                CyExitCriticalSection
  .text.CyDelayUs
-                0x000006a0       0x28 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(CyLib.o)
-                0x000006a0                CyDelayUs
+                0x00000668       0x28 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(CyLib.o)
+                0x00000668                CyDelayUs
  .text.LED_Write
-                0x000006c8       0x4c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(LED.o)
-                0x000006c8                LED_Write
+                0x00000690       0x4c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(LED.o)
+                0x00000690                LED_Write
  .text.Mux_timer_Init
-                0x00000714       0x38 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
-                0x00000714                Mux_timer_Init
+                0x000006dc       0x38 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
+                0x000006dc                Mux_timer_Init
  .text.Mux_timer_Enable
-                0x0000074c       0x30 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
-                0x0000074c                Mux_timer_Enable
+                0x00000714       0x30 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
+                0x00000714                Mux_timer_Enable
  .text.Mux_timer_Start
-                0x0000077c       0x24 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
-                0x0000077c                Mux_timer_Start
+                0x00000744       0x24 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
+                0x00000744                Mux_timer_Start
  .text.Mux_timer_WriteCounter
-                0x000007a0       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
-                0x000007a0                Mux_timer_WriteCounter
+                0x00000768       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
+                0x00000768                Mux_timer_WriteCounter
  .text.Mux_timer_WritePeriod
-                0x000007bc       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
-                0x000007bc                Mux_timer_WritePeriod
+                0x00000784       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
+                0x00000784                Mux_timer_WritePeriod
  .text.Mux_timer_ReadCapture
-                0x000007d8       0x18 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
-                0x000007d8                Mux_timer_ReadCapture
+                0x000007a0       0x18 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
+                0x000007a0                Mux_timer_ReadCapture
  .text.Mux_timer_SetInterruptMode
-                0x000007f0       0x18 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
-                0x000007f0                Mux_timer_SetInterruptMode
+                0x000007b8       0x18 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
+                0x000007b8                Mux_timer_SetInterruptMode
  .text.Default_PWM_Init
-                0x00000808       0x5c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
-                0x00000808                Default_PWM_Init
+                0x000007d0       0x5c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
+                0x000007d0                Default_PWM_Init
  .text.Default_PWM_Enable
-                0x00000864       0x38 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
-                0x00000864                Default_PWM_Enable
+                0x0000082c       0x38 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
+                0x0000082c                Default_PWM_Enable
  .text.Default_PWM_Start
-                0x0000089c       0x24 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
-                0x0000089c                Default_PWM_Start
+                0x00000864       0x24 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
+                0x00000864                Default_PWM_Start
  .text.Default_PWM_WriteCounter
-                0x000008c0       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
-                0x000008c0                Default_PWM_WriteCounter
+                0x00000888       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
+                0x00000888                Default_PWM_WriteCounter
  .text.Default_PWM_WritePeriod
-                0x000008dc       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
-                0x000008dc                Default_PWM_WritePeriod
+                0x000008a4       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
+                0x000008a4                Default_PWM_WritePeriod
  .text.Default_PWM_WriteCompare
-                0x000008f8       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
-                0x000008f8                Default_PWM_WriteCompare
+                0x000008c0       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
+                0x000008c0                Default_PWM_WriteCompare
  .text.Default_PWM_TriggerCommand
-                0x00000914       0x3c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
-                0x00000914                Default_PWM_TriggerCommand
+                0x000008dc       0x3c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
+                0x000008dc                Default_PWM_TriggerCommand
  .text.Default_PWM_SetInterruptMode
-                0x00000950       0x18 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
-                0x00000950                Default_PWM_SetInterruptMode
+                0x00000918       0x18 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
+                0x00000918                Default_PWM_SetInterruptMode
  .text.Cam_sel_PWM_Init
-                0x00000968       0x5c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
-                0x00000968                Cam_sel_PWM_Init
+                0x00000930       0x5c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
+                0x00000930                Cam_sel_PWM_Init
  .text.Cam_sel_PWM_Enable
-                0x000009c4       0x38 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
-                0x000009c4                Cam_sel_PWM_Enable
+                0x0000098c       0x38 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
+                0x0000098c                Cam_sel_PWM_Enable
  .text.Cam_sel_PWM_Start
-                0x000009fc       0x24 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
-                0x000009fc                Cam_sel_PWM_Start
+                0x000009c4       0x24 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
+                0x000009c4                Cam_sel_PWM_Start
  .text.Cam_sel_PWM_WriteCounter
-                0x00000a20       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
-                0x00000a20                Cam_sel_PWM_WriteCounter
+                0x000009e8       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
+                0x000009e8                Cam_sel_PWM_WriteCounter
  .text.Cam_sel_PWM_WritePeriod
-                0x00000a3c       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
-                0x00000a3c                Cam_sel_PWM_WritePeriod
+                0x00000a04       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
+                0x00000a04                Cam_sel_PWM_WritePeriod
  .text.Cam_sel_PWM_WriteCompare
-                0x00000a58       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
-                0x00000a58                Cam_sel_PWM_WriteCompare
+                0x00000a20       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
+                0x00000a20                Cam_sel_PWM_WriteCompare
  .text.Cam_sel_PWM_TriggerCommand
-                0x00000a74       0x3c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
-                0x00000a74                Cam_sel_PWM_TriggerCommand
+                0x00000a3c       0x3c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
+                0x00000a3c                Cam_sel_PWM_TriggerCommand
  .text.Cam_sel_PWM_SetInterruptMode
-                0x00000ab0       0x18 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
-                0x00000ab0                Cam_sel_PWM_SetInterruptMode
+                0x00000a78       0x18 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
+                0x00000a78                Cam_sel_PWM_SetInterruptMode
  .text.Cam_Sel_timer_Init
-                0x00000ac8       0x38 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
-                0x00000ac8                Cam_Sel_timer_Init
+                0x00000a90       0x38 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
+                0x00000a90                Cam_Sel_timer_Init
  .text.Cam_Sel_timer_Enable
-                0x00000b00       0x30 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
-                0x00000b00                Cam_Sel_timer_Enable
+                0x00000ac8       0x30 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
+                0x00000ac8                Cam_Sel_timer_Enable
  .text.Cam_Sel_timer_Start
-                0x00000b30       0x24 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
-                0x00000b30                Cam_Sel_timer_Start
+                0x00000af8       0x24 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
+                0x00000af8                Cam_Sel_timer_Start
  .text.Cam_Sel_timer_WriteCounter
-                0x00000b54       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
-                0x00000b54                Cam_Sel_timer_WriteCounter
+                0x00000b1c       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
+                0x00000b1c                Cam_Sel_timer_WriteCounter
  .text.Cam_Sel_timer_WritePeriod
-                0x00000b70       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
-                0x00000b70                Cam_Sel_timer_WritePeriod
+                0x00000b38       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
+                0x00000b38                Cam_Sel_timer_WritePeriod
  .text.Cam_Sel_timer_ReadCapture
-                0x00000b8c       0x18 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
-                0x00000b8c                Cam_Sel_timer_ReadCapture
+                0x00000b54       0x18 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
+                0x00000b54                Cam_Sel_timer_ReadCapture
  .text.Cam_Sel_timer_SetInterruptMode
-                0x00000ba4       0x18 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
-                0x00000ba4                Cam_Sel_timer_SetInterruptMode
+                0x00000b6c       0x18 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
+                0x00000b6c                Cam_Sel_timer_SetInterruptMode
  .text.Arm_select_Read
-                0x00000bbc       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
-                0x00000bbc                Arm_select_Read
+                0x00000b84       0x1c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
+                0x00000b84                Arm_select_Read
  .text.__libc_init_array
-                0x00000bd8       0x4c c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
-                0x00000bd8                __libc_init_array
- .text.memset   0x00000c24       0x10 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
-                0x00000c24                memset
+                0x00000ba0       0x4c c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+                0x00000ba0                __libc_init_array
+ .text.memset   0x00000bec       0x10 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+                0x00000bec                memset
  *(.plt)
  *(.gnu.warning)
  *(.glue_7t)
@@ -756,75 +756,75 @@ END GROUP
  *(.ARM.extab* .gnu.linkonce.armextab.*)
  *(.gcc_except_table)
 
-.v4_bx          0x00000c34        0x0
+.v4_bx          0x00000bfc        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00000c34        0x0
+.iplt           0x00000bfc        0x0
  .iplt          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
 
 .eh_frame_hdr
  *(.eh_frame_hdr)
 
-.eh_frame       0x00000c34        0x4
+.eh_frame       0x00000bfc        0x4
  *(.eh_frame)
- .eh_frame      0x00000c34        0x0 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
- .eh_frame      0x00000c34        0x4 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
-                0x00000c38                PROVIDE (__exidx_start, .)
+ .eh_frame      0x00000bfc        0x0 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .eh_frame      0x00000bfc        0x4 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+                0x00000c00                PROVIDE (__exidx_start, .)
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00000c38                __exidx_end = .
+                0x00000c00                __exidx_end = .
 
-.rodata         0x00000c38      0x1c0
+.rodata         0x00000c00      0x1b0
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata        0x00000c38      0x188 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(cyfitter_cfg.o)
-                0x00000dc0                . = ALIGN (0x4)
+ .rodata        0x00000c00      0x178 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(cyfitter_cfg.o)
+                0x00000d78                . = ALIGN (0x4)
  *(.init)
- .init          0x00000dc0        0x4 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
-                0x00000dc0                _init
- .init          0x00000dc4        0x8 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
-                0x00000dcc                . = ALIGN (0x4)
-                0x00000dcc                __preinit_array_start = .
+ .init          0x00000d78        0x4 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+                0x00000d78                _init
+ .init          0x00000d7c        0x8 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+                0x00000d84                . = ALIGN (0x4)
+                0x00000d84                __preinit_array_start = .
  *(.preinit_array)
-                0x00000dcc                __preinit_array_end = .
-                0x00000dcc                . = ALIGN (0x4)
-                0x00000dcc                __init_array_start = .
+                0x00000d84                __preinit_array_end = .
+                0x00000d84                . = ALIGN (0x4)
+                0x00000d84                __init_array_start = .
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x00000dcc        0x4 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
- .init_array    0x00000dd0        0x4 .\CortexM0\ARM_GCC_484\Debug\Cm0Start.o
-                0x00000dd4                __init_array_end = .
-                0x00000dd4                . = ALIGN (0x4)
+ .init_array    0x00000d84        0x4 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .init_array    0x00000d88        0x4 .\CortexM0\ARM_GCC_484\Debug\Cm0Start.o
+                0x00000d8c                __init_array_end = .
+                0x00000d8c                . = ALIGN (0x4)
  *(.fini)
- .fini          0x00000dd4        0x4 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
-                0x00000dd4                _fini
- .fini          0x00000dd8        0x8 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
-                0x00000de0                . = ALIGN (0x4)
-                0x00000de0                __fini_array_start = .
+ .fini          0x00000d8c        0x4 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+                0x00000d8c                _fini
+ .fini          0x00000d90        0x8 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+                0x00000d98                . = ALIGN (0x4)
+                0x00000d98                __fini_array_start = .
  *(.fini_array)
- .fini_array    0x00000de0        0x4 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .fini_array    0x00000d98        0x4 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
  *(SORT(.fini_array.*))
-                0x00000de4                __fini_array_end = .
-                0x00000de4                . = ALIGN (0x4)
+                0x00000d9c                __fini_array_end = .
+                0x00000d9c                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x00000de4                . = ALIGN (0x4)
+                0x00000d9c                . = ALIGN (0x4)
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
-                0x00000de4                . = ALIGN (0x4)
-                0x00000de4                __cy_regions = .
-                0x00000de4        0x4 LONG 0xdf8 __cy_region_init_ram
-                0x00000de8        0x4 LONG 0x200000c8 __cy_region_start_data
-                0x00000dec        0x4 LONG 0x18 __cy_region_init_size_ram
-                0x00000df0        0x4 LONG 0x20 __cy_region_zero_size_ram
-                0x00000df4                __cy_regions_end = .
-                0x00000df8                . = ALIGN (0x8)
- *fill*         0x00000df4        0x4 
-                0x00000df8                _etext = .
+                0x00000d9c                . = ALIGN (0x4)
+                0x00000d9c                __cy_regions = .
+                0x00000d9c        0x4 LONG 0xdb0 __cy_region_init_ram
+                0x00000da0        0x4 LONG 0x200000c8 __cy_region_start_data
+                0x00000da4        0x4 LONG 0x18 __cy_region_init_size_ram
+                0x00000da8        0x4 LONG 0x20 __cy_region_zero_size_ram
+                0x00000dac                __cy_regions_end = .
+                0x00000db0                . = ALIGN (0x8)
+ *fill*         0x00000dac        0x4 
+                0x00000db0                _etext = .
 
 .ramvectors     0x20000000       0xc0
                 0x20000000                __cy_region_start_ram = .
@@ -836,7 +836,7 @@ END GROUP
  *(.noinit)
  .noinit        0x200000c0        0x4 .\CortexM0\ARM_GCC_484\Debug\Cm0Start.o
 
-.data           0x200000c8       0x18 load address 0x00000df8
+.data           0x200000c8       0x18 load address 0x00000db0
                 0x200000c8                __cy_region_start_data = .
  *(.jcr)
  .jcr           0x200000c8        0x0 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
@@ -855,10 +855,10 @@ END GROUP
  *(.ram)
                 0x200000e0                _edata = .
 
-.igot.plt       0x200000e0        0x0 load address 0x00000e10
+.igot.plt       0x200000e0        0x0 load address 0x00000dc8
  .igot.plt      0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
 
-.bss            0x200000e0       0x20 load address 0x00000e10
+.bss            0x200000e0       0x20 load address 0x00000dc8
                 0x200000e0                PROVIDE (__bss_start__, .)
  *(.shbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
@@ -878,11 +878,11 @@ END GROUP
                 0x20000100                __end = .
                 0x20000100                PROVIDE (end, .)
                 0x20000100                PROVIDE (__bss_end__, .)
-                0x00000df8                __cy_region_init_ram = LOADADDR (.data)
+                0x00000db0                __cy_region_init_ram = LOADADDR (.data)
                 0x00000018                __cy_region_init_size_ram = (_edata - ADDR (.data))
                 0x00000020                __cy_region_zero_size_ram = (_end - _edata)
 
-.heap           0x20000100       0x80 load address 0x00000e10
+.heap           0x20000100       0x80 load address 0x00000dc8
                 0x20000100                . = _end
                 0x20000180                . = (. + 0x80)
  *fill*         0x20000100       0x80 
@@ -918,7 +918,7 @@ END GROUP
                 0x90600000        0x4 .\CortexM0\ARM_GCC_484\Debug\cymetadata.o
                 0x90600000                cy_meta_chipprotect
 
-.rel.dyn        0x00000e10        0x0 load address 0x90600004
+.rel.dyn        0x00000dc8        0x0 load address 0x90600004
  .rel.iplt      0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
 
 .stab
@@ -971,21 +971,21 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x3597
+.debug_info     0x00000000     0x3591
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000       0xcf .\CortexM0\ARM_GCC_484\Debug\main.o
  .debug_info    0x000000cf       0xfd .\CortexM0\ARM_GCC_484\Debug\cymetadata.o
  .debug_info    0x000001cc      0x2ff .\CortexM0\ARM_GCC_484\Debug\Cm0Start.o
  .debug_info    0x000004cb      0x442 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(cyfitter_cfg.o)
  .debug_info    0x0000090d      0x14c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(INPUT_SELECT.o)
- .debug_info    0x00000a59       0x8b .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(CyBootAsmGnu.o)
- .debug_info    0x00000ae4      0xc5b .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(CyLib.o)
- .debug_info    0x0000173f      0x14c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(LED.o)
- .debug_info    0x0000188b      0x6f0 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
- .debug_info    0x00001f7b      0x6f0 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
- .debug_info    0x0000266b      0x6f0 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
- .debug_info    0x00002d5b      0x6f0 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
- .debug_info    0x0000344b      0x14c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
+ .debug_info    0x00000a59       0x85 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(CyBootAsmGnu.o)
+ .debug_info    0x00000ade      0xc5b .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(CyLib.o)
+ .debug_info    0x00001739      0x14c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(LED.o)
+ .debug_info    0x00001885      0x6f0 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
+ .debug_info    0x00001f75      0x6f0 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
+ .debug_info    0x00002665      0x6f0 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
+ .debug_info    0x00002d55      0x6f0 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
+ .debug_info    0x00003445      0x14c .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
 
 .debug_abbrev   0x00000000      0xc66
  *(.debug_abbrev)
@@ -1003,21 +1003,21 @@ END GROUP
  .debug_abbrev  0x00000aa6      0x109 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
  .debug_abbrev  0x00000baf       0xb7 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
 
-.debug_line     0x00000000     0x1ba6
+.debug_line     0x00000000     0x1ba1
  *(.debug_line)
  .debug_line    0x00000000       0x87 .\CortexM0\ARM_GCC_484\Debug\main.o
  .debug_line    0x00000087       0x53 .\CortexM0\ARM_GCC_484\Debug\cymetadata.o
  .debug_line    0x000000da      0x1bb .\CortexM0\ARM_GCC_484\Debug\Cm0Start.o
- .debug_line    0x00000295      0x1bd .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(cyfitter_cfg.o)
- .debug_line    0x00000452       0xb3 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(INPUT_SELECT.o)
- .debug_line    0x00000505       0x69 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(CyBootAsmGnu.o)
- .debug_line    0x0000056e      0x703 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(CyLib.o)
- .debug_line    0x00000c71       0xa9 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(LED.o)
- .debug_line    0x00000d1a      0x371 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
- .debug_line    0x0000108b      0x37b .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
- .debug_line    0x00001406      0x37b .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
- .debug_line    0x00001781      0x375 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
- .debug_line    0x00001af6       0xb0 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
+ .debug_line    0x00000295      0x1b8 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(cyfitter_cfg.o)
+ .debug_line    0x0000044d       0xb3 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(INPUT_SELECT.o)
+ .debug_line    0x00000500       0x69 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(CyBootAsmGnu.o)
+ .debug_line    0x00000569      0x703 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(CyLib.o)
+ .debug_line    0x00000c6c       0xa9 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(LED.o)
+ .debug_line    0x00000d15      0x371 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
+ .debug_line    0x00001086      0x37b .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
+ .debug_line    0x00001401      0x37b .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
+ .debug_line    0x0000177c      0x375 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
+ .debug_line    0x00001af1       0xb0 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
 
 .debug_frame    0x00000000     0x21e0
  *(.debug_frame)
@@ -1040,32 +1040,32 @@ END GROUP
  .debug_frame   0x00002198       0x28 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memcpy-stub.o)
  .debug_frame   0x000021c0       0x20 c:/program files (x86)/cypress/psoc creator/3.1/psoc creator/import/gnu_cs/arm/4.8.4/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
 
-.debug_str      0x00000000     0x1e94
+.debug_str      0x00000000     0x1e8e
  *(.debug_str)
- .debug_str     0x00000000      0x14a .\CortexM0\ARM_GCC_484\Debug\main.o
-                                0x183 (size before relaxing)
- .debug_str     0x0000014a       0x61 .\CortexM0\ARM_GCC_484\Debug\cymetadata.o
-                                0x1b7 (size before relaxing)
- .debug_str     0x000001ab      0x13c .\CortexM0\ARM_GCC_484\Debug\Cm0Start.o
-                                0x2a5 (size before relaxing)
- .debug_str     0x000002e7      0x193 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(cyfitter_cfg.o)
-                                0x33f (size before relaxing)
- .debug_str     0x0000047a       0xb4 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(INPUT_SELECT.o)
-                                0x21a (size before relaxing)
- .debug_str     0x0000052e      0x71d .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(CyLib.o)
-                                0x8be (size before relaxing)
- .debug_str     0x00000c4b       0x66 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(LED.o)
-                                0x1e4 (size before relaxing)
- .debug_str     0x00000cb1      0x490 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
-                                0x609 (size before relaxing)
- .debug_str     0x00001141      0x425 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
-                                0x65d (size before relaxing)
- .debug_str     0x00001566      0x425 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
-                                0x65d (size before relaxing)
- .debug_str     0x0000198b      0x479 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
-                                0x6b1 (size before relaxing)
- .debug_str     0x00001e04       0x90 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
-                                0x20e (size before relaxing)
+ .debug_str     0x00000000      0x144 .\CortexM0\ARM_GCC_484\Debug\main.o
+                                0x17d (size before relaxing)
+ .debug_str     0x00000144       0x61 .\CortexM0\ARM_GCC_484\Debug\cymetadata.o
+                                0x1b1 (size before relaxing)
+ .debug_str     0x000001a5      0x13c .\CortexM0\ARM_GCC_484\Debug\Cm0Start.o
+                                0x29f (size before relaxing)
+ .debug_str     0x000002e1      0x193 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(cyfitter_cfg.o)
+                                0x339 (size before relaxing)
+ .debug_str     0x00000474       0xb4 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(INPUT_SELECT.o)
+                                0x214 (size before relaxing)
+ .debug_str     0x00000528      0x71d .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(CyLib.o)
+                                0x8b8 (size before relaxing)
+ .debug_str     0x00000c45       0x66 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(LED.o)
+                                0x1de (size before relaxing)
+ .debug_str     0x00000cab      0x490 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Mux_timer.o)
+                                0x603 (size before relaxing)
+ .debug_str     0x0000113b      0x425 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Default_PWM.o)
+                                0x657 (size before relaxing)
+ .debug_str     0x00001560      0x425 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_sel_PWM.o)
+                                0x657 (size before relaxing)
+ .debug_str     0x00001985      0x479 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Cam_Sel_timer.o)
+                                0x6ab (size before relaxing)
+ .debug_str     0x00001dfe       0x90 .\CortexM0\ARM_GCC_484\Debug\PWM_MUX.a(Arm_select.o)
+                                0x208 (size before relaxing)
 
 .debug_loc
  *(.debug_loc)
